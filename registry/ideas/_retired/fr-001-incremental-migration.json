@@ -1,0 +1,43 @@
+{
+  "idea_id": "fr-001-incremental-migration",
+  "summary": "Automated incremental migration assistant that converts legacy codebases to modern frameworks one component at a time with rollback capability",
+  "novelty": [
+    "Component-level migration with live A/B testing",
+    "Automatic rollback on performance regression",
+    "Maintains dual-stack during transition"
+  ],
+  "feasibility_notes": [
+    "Can use existing AST parsing tools",
+    "Feature flags infrastructure is well-understood",
+    "Start with React class to hooks migration",
+    "Leverage existing codemods as foundation"
+  ],
+  "risks": [
+    "Bundle size increase during dual-stack phase",
+    "Complex state management during transition",
+    "Testing overhead for both versions"
+  ],
+  "impact_hypothesis": "Enables zero-downtime modernization reducing migration project timelines by 50%",
+  "evidence": [
+    {
+      "claim": "Incremental migration reduces risk",
+      "support": ["Strangler fig pattern success stories", "GitHub's Ruby to Go migration"],
+      "confidence": 0.9
+    },
+    {
+      "claim": "Automated migration tools improve adoption",
+      "support": ["React codemod usage statistics", "Angular migration schematic adoption"],
+      "confidence": 0.75
+    }
+  ],
+  "score": {
+    "novelty": 0.6,
+    "feasibility": 0.85,
+    "impact": 0.75,
+    "risk": 0.25,
+    "composability": 0.8,
+    "calculated_total": 0.7475
+  },
+  "retirement_reason": "Superseded by v2 version which adds AI assistance, visual progress tracking, and emotional journey support based on peer feedback",
+  "retirement_date": "2025-08-09"
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "idea_id": "fr-001-incremental-migration",
+    "summary": "Automated incremental migration assistant that converts legacy codebases to modern frameworks one component at a time with rollback capability",
+    "novelty": [
+      "Component-level migration with live A/B testing",
+      "Automatic rollback on performance regression",
+      "Maintains dual-stack during transition"
+    ],
+    "feasibility_notes": [
+      "Can use existing AST parsing tools",
+      "Feature flags infrastructure is well-understood",
+      "Start with React class to hooks migration",
+      "Leverage existing codemods as foundation"
+    ],
+    "risks": [
+      "Bundle size increase during dual-stack phase",
+      "Complex state management during transition",
+      "Testing overhead for both versions"
+    ],
+    "impact_hypothesis": "Enables zero-downtime modernization reducing migration project timelines by 50%",
+    "evidence": [
+      {
+        "claim": "Incremental migration reduces risk",
+        "support": ["Strangler fig pattern success stories", "GitHub's Ruby to Go migration"],
+        "confidence": 0.9
+      },
+      {
+        "claim": "Automated migration tools improve adoption",
+        "support": ["React codemod usage statistics", "Angular migration schematic adoption"],
+        "confidence": 0.75
+      }
+    ],
+    "score": {
+      "novelty": 0.6,
+      "feasibility": 0.85,
+      "impact": 0.75,
+      "risk": 0.25,
+      "composability": 0.8,
+      "total": 0.0
+    },
+    "peer_critiques": [
+      {
+        "from": "feature-visionary",
+        "feedback": "Good pragmatic approach but could be more ambitious. Consider adding AI-assisted code translation to reduce manual effort. The dual-stack approach is solid but expensive.",
+        "suggestions": ["Add LLM-powered code translation suggestions", "Create migration confidence scoring", "Gamify the migration process with progress visualization"]
+      },
+      {
+        "from": "ux-advocate",
+        "feedback": "Migration tools often overwhelm developers. Need clear progress indicators and celebration of milestones. Consider the emotional journey of deprecating familiar code.",
+        "suggestions": ["Add migration dashboard with visual progress", "Include 'migration diary' for documenting decisions", "Provide rollback confidence indicators"]
+      }
+    ]
+  },
+  {
+    "idea_id": "fr-002-resource-optimizer",
+    "summary": "Smart resource allocation optimizer that automatically adjusts CI/CD resources based on historical patterns and current queue depth",
+    "novelty": [
+      "ML-based prediction of build duration",
+      "Dynamic resource scaling with cost optimization",
+      "Automatic parallelization strategy selection"
+    ],
+    "feasibility_notes": [
+      "Can integrate with existing CI platforms via APIs",
+      "Historical data already available in most systems",
+      "Simple heuristics work well as MVP",
+      "Kubernetes autoscaling provides foundation"
+    ],
+    "risks": [
+      "Potential for resource starvation",
+      "Cost overruns if predictions fail",
+      "Complexity of multi-cloud optimization"
+    ],
+    "impact_hypothesis": "Reduces CI/CD costs by 30% while improving build times by 20%",
+    "evidence": [
+      {
+        "claim": "Dynamic resource allocation reduces waste",
+        "support": ["AWS Spot Instance savings reports", "Kubernetes HPA case studies"],
+        "confidence": 0.85
+      },
+      {
+        "claim": "Predictive scaling improves performance",
+        "support": ["Netflix predictive autoscaling", "Google Borg paper"],
+        "confidence": 0.8
+      }
+    ],
+    "score": {
+      "novelty": 0.5,
+      "feasibility": 0.9,
+      "impact": 0.7,
+      "risk": 0.2,
+      "composability": 0.85,
+      "total": 0.0
+    },
+    "peer_critiques": [
+      {
+        "from": "feature-visionary",
+        "feedback": "Solid efficiency play but lacks innovation spark. Could predict build failures before they happen using ML on code changes. Resource optimization is table stakes now.",
+        "suggestions": ["Add failure prediction based on diff analysis", "Create 'resource budget' alerts for teams", "Implement cross-project resource sharing pools"]
+      },
+      {
+        "from": "ux-advocate",
+        "feedback": "Developers don't care about resource allocation until builds fail. Need to make savings visible and celebrated. Show time saved, not just resources optimized.",
+        "suggestions": ["Dashboard showing 'time given back' to developers", "Predictive wait time estimates", "Smart scheduling to avoid peak times"]
+      }
+    ]
+  }
+]

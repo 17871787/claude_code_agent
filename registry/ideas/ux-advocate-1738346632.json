@@ -1,0 +1,108 @@
+[
+  {
+    "idea_id": "ux-001-error-humanizer",
+    "summary": "Context-aware error messages that explain issues in plain language with visual diagrams and one-click fix suggestions",
+    "novelty": [
+      "Generates visual flow diagrams for error context",
+      "Adapts language complexity to user expertise level",
+      "Provides interactive fix playground"
+    ],
+    "feasibility_notes": [
+      "Can leverage LLMs for message generation",
+      "Error context already available in most frameworks",
+      "Mermaid.js or similar for diagram generation",
+      "Start with common error patterns"
+    ],
+    "risks": [
+      "LLM hallucination in explanations",
+      "Performance impact of diagram generation",
+      "Maintaining accuracy across versions"
+    ],
+    "impact_hypothesis": "Reduces developer frustration by 50% and speeds up error resolution by 35%",
+    "evidence": [
+      {
+        "claim": "Better error messages improve developer experience",
+        "support": ["Elm's error messages praise", "Rust compiler helpfulness studies"],
+        "confidence": 0.9
+      },
+      {
+        "claim": "Visual aids accelerate comprehension",
+        "support": ["Cognitive load theory research", "Stack Overflow visual answer preference"],
+        "confidence": 0.85
+      }
+    ],
+    "score": {
+      "novelty": 0.7,
+      "feasibility": 0.8,
+      "impact": 0.85,
+      "risk": 0.2,
+      "composability": 0.9,
+      "total": 0.0
+    },
+    "peer_critiques": [
+      {
+        "from": "feature-visionary",
+        "feedback": "Great UX focus but could push boundaries more. Imagine errors that fix themselves or learn from user corrections. Visual diagrams are nice but predictive fixes are better.",
+        "suggestions": ["Auto-fix for common patterns", "Error pattern learning across projects", "Collaborative error resolution database"]
+      },
+      {
+        "from": "feasibility-realist",
+        "feedback": "LLM integration adds latency and cost. Diagram generation could slow down error display. Need careful caching and pre-generation strategies.",
+        "suggestions": ["Pre-generate diagrams for common errors", "Use local LLM for privacy and speed", "Progressive enhancement - show text first, diagram loads async"]
+      }
+    ]
+  },
+  {
+    "idea_id": "ux-002-flow-guardian",
+    "summary": "Intelligent interruption manager that batches notifications and protects deep work sessions based on cognitive load monitoring",
+    "novelty": [
+      "Uses commit frequency as flow state indicator",
+      "Adaptive notification batching algorithms",
+      "Team-wide flow state visibility"
+    ],
+    "feasibility_notes": [
+      "Can hook into existing notification systems",
+      "Simple heuristics for flow detection initially",
+      "Integrate with Slack/Teams status APIs",
+      "Browser extension for web notifications"
+    ],
+    "risks": [
+      "Missing critical notifications",
+      "Team coordination challenges",
+      "Privacy concerns with activity monitoring"
+    ],
+    "impact_hypothesis": "Increases deep work time by 40% and reduces context switching by 60%",
+    "evidence": [
+      {
+        "claim": "Interruptions destroy productivity",
+        "support": ["UC Irvine interruption studies", "Microsoft focus time research"],
+        "confidence": 0.95
+      },
+      {
+        "claim": "Batching improves cognitive performance",
+        "support": ["Time blocking effectiveness studies", "Pomodoro technique research"],
+        "confidence": 0.8
+      }
+    ],
+    "score": {
+      "novelty": 0.75,
+      "feasibility": 0.75,
+      "impact": 0.9,
+      "risk": 0.35,
+      "composability": 0.7,
+      "total": 0.0
+    },
+    "peer_critiques": [
+      {
+        "from": "feature-visionary",
+        "feedback": "Solid productivity tool but could be more intelligent. Use ML to predict optimal interruption windows based on task completion patterns. Add team-wide flow optimization.",
+        "suggestions": ["AI-powered meeting scheduler based on team flow states", "Predictive do-not-disturb based on task complexity", "Flow state leaderboards for gamification"]
+      },
+      {
+        "from": "feasibility-realist",
+        "feedback": "Flow detection heuristics are harder than they seem. Integration with every notification system is a massive undertaking. Start with one platform.",
+        "suggestions": ["Focus on Slack or Teams initially", "Use simple proxy metrics like typing speed", "Manual flow state declaration as MVP"]
+      }
+    ]
+  }
+]

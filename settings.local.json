@@ -1,0 +1,34 @@
+{
+  "project": {
+    "name": "Multi-Agent Ideation Pipeline",
+    "version": "1.0.0",
+    "mode": "AUTOPILOT"
+  },
+  "paths": {
+    "agents": ".claude/agents",
+    "commands": ".claude/commands",
+    "ideas": "registry/ideas",
+    "scoring": "registry/scoring",
+    "retired": "registry/ideas/_retired",
+    "selected": "registry/ideas/_selected"
+  },
+  "scoring": {
+    "weights": {
+      "novelty": 0.25,
+      "feasibility": 0.25,
+      "impact": 0.3,
+      "risk": 0.1,
+      "composability": 0.1
+    },
+    "gate_a_retention": 0.65,
+    "portfolio_size": {
+      "min": 3,
+      "max": 5
+    }
+  },
+  "output": {
+    "format": "json",
+    "pretty_print": true,
+    "timestamp_format": "unix"
+  }
+}

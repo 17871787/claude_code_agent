@@ -1,0 +1,181 @@
+{
+  "scoring_metadata": {
+    "timestamp": 1738346700,
+    "total_candidates": 8,
+    "scoring_dimensions": ["novelty", "feasibility", "impact", "risk", "composability"],
+    "weights": {
+      "novelty": 0.25,
+      "feasibility": 0.25,
+      "impact": 0.3,
+      "risk": 0.1,
+      "composability": 0.1
+    }
+  },
+  "detailed_scores": [
+    {
+      "rank": 1,
+      "idea_id": "ux-001-error-humanizer-v2",
+      "summary": "Progressive error enhancement system with auto-fix capabilities and collaborative resolution database",
+      "total_score": 0.815,
+      "dimension_scores": {
+        "novelty": 0.8,
+        "feasibility": 0.75,
+        "impact": 0.9,
+        "risk": 0.25,
+        "composability": 0.85
+      },
+      "reasoning": {
+        "novelty": "Auto-fix and cross-project learning network are innovative approaches to error handling",
+        "feasibility": "Progressive enhancement strategy and local LLM make implementation practical",
+        "impact": "45% error resolution improvement plus knowledge building creates massive value",
+        "risk": "Auto-fix could introduce bugs, but progressive approach mitigates this",
+        "composability": "Integrates well with existing error systems and can be adopted incrementally"
+      },
+      "implementation_notes": "Start with text-only MVP, add diagrams async, then layer in auto-fix capabilities",
+      "dependencies": ["Local LLM infrastructure", "Error pattern database", "Community contribution system"],
+      "complementary_ideas": ["fv-001-predictive-context-v2", "ux-002-flow-guardian-v2"]
+    },
+    {
+      "rank": 2,
+      "idea_id": "ux-002-flow-guardian-v2",
+      "summary": "Platform-focused flow protection with manual control and AI-enhanced scheduling",
+      "total_score": 0.8025,
+      "dimension_scores": {
+        "novelty": 0.7,
+        "feasibility": 0.85,
+        "impact": 0.85,
+        "risk": 0.25,
+        "composability": 0.75
+      },
+      "reasoning": {
+        "novelty": "AI meeting scheduling based on team flow state is relatively new",
+        "feasibility": "Single platform focus and manual controls make this very achievable",
+        "impact": "35% increase in deep work time is significant productivity gain",
+        "risk": "Platform lock-in and team adoption are manageable risks",
+        "composability": "Works well with existing tools but requires team coordination"
+      },
+      "implementation_notes": "Launch with Slack integration, manual flow declaration, then add AI predictions",
+      "dependencies": ["Slack/Teams API access", "Team buy-in", "Flow metrics collection"],
+      "complementary_ideas": ["fv-001-predictive-context-v2", "ux-001-error-humanizer-v2"]
+    },
+    {
+      "rank": 3,
+      "idea_id": "fv-002-collaborative-replay-v2",
+      "summary": "Async-first debugging replay platform with optional real-time collaboration layer",
+      "total_score": 0.795,
+      "dimension_scores": {
+        "novelty": 0.85,
+        "feasibility": 0.75,
+        "impact": 0.8,
+        "risk": 0.3,
+        "composability": 0.8
+      },
+      "reasoning": {
+        "novelty": "Applying Loom-style async to debugging is genuinely innovative",
+        "feasibility": "Async-first approach significantly reduces complexity vs real-time",
+        "impact": "40-60% reduction in complex bug resolution time is substantial",
+        "risk": "Storage and security concerns are addressable with proper architecture",
+        "composability": "Can integrate with existing debugging tools and workflows"
+      },
+      "implementation_notes": "Build recording layer first, add annotations, then optional real-time upgrade",
+      "dependencies": ["Recording infrastructure", "Secure storage", "Playback UI"],
+      "complementary_ideas": ["ux-001-error-humanizer-v2", "fr-002-resource-optimizer-v2"]
+    },
+    {
+      "rank": 4,
+      "idea_id": "fv-001-predictive-context-v2",
+      "summary": "Local-first AI workspace predictor with privacy-preserving pattern learning",
+      "total_score": 0.7875,
+      "dimension_scores": {
+        "novelty": 0.75,
+        "feasibility": 0.85,
+        "impact": 0.75,
+        "risk": 0.2,
+        "composability": 0.95
+      },
+      "reasoning": {
+        "novelty": "Local-first with teaching mode is moderately innovative",
+        "feasibility": "Local SQLite and static analysis make this very buildable",
+        "impact": "30-45% context-switching reduction is valuable but not transformative",
+        "risk": "Minimal risk with local-first approach and user controls",
+        "composability": "Excellent integration potential with any IDE or workflow"
+      },
+      "implementation_notes": "Start with import graph analysis, add local patterns, then teaching mode",
+      "dependencies": ["IDE plugin architecture", "Local SQLite", "Pattern recognition engine"],
+      "complementary_ideas": ["ux-002-flow-guardian-v2", "fr-001-incremental-migration-v2"]
+    },
+    {
+      "rank": 5,
+      "idea_id": "fr-001-incremental-migration-v2",
+      "summary": "AI-assisted incremental migration with visual progress tracking",
+      "total_score": 0.78,
+      "dimension_scores": {
+        "novelty": 0.75,
+        "feasibility": 0.75,
+        "impact": 0.8,
+        "risk": 0.3,
+        "composability": 0.85
+      },
+      "reasoning": {
+        "novelty": "Gamification and AI assistance for migrations is fairly innovative",
+        "feasibility": "Building on existing tools makes this achievable",
+        "impact": "60% timeline reduction for migrations is highly valuable",
+        "risk": "LLM quality variance and gamification reception are moderate risks",
+        "composability": "Works with any migration scenario and existing tooling"
+      },
+      "implementation_notes": "Implement core migration engine, add visual dashboard, then AI suggestions",
+      "dependencies": ["AST parsing", "Feature flags", "Local LLM", "Progress visualization"],
+      "complementary_ideas": ["fv-001-predictive-context-v2", "fr-002-resource-optimizer-v2"]
+    },
+    {
+      "rank": 6,
+      "idea_id": "fr-002-resource-optimizer-v2",
+      "summary": "Predictive CI/CD optimizer with failure prevention and time savings dashboard",
+      "total_score": 0.7775,
+      "dimension_scores": {
+        "novelty": 0.65,
+        "feasibility": 0.85,
+        "impact": 0.8,
+        "risk": 0.25,
+        "composability": 0.9
+      },
+      "reasoning": {
+        "novelty": "Failure prediction is somewhat novel but not groundbreaking",
+        "feasibility": "Very achievable with existing CI/CD APIs and tools",
+        "impact": "25% failure prevention and 4 hours/week saved is significant",
+        "risk": "False positives and resource contention are manageable",
+        "composability": "Excellent integration with any CI/CD platform"
+      },
+      "implementation_notes": "Start with resource optimization, add failure prediction, then dashboards",
+      "dependencies": ["CI/CD platform APIs", "Historical data access", "Kubernetes"],
+      "complementary_ideas": ["fv-002-collaborative-replay-v2", "fr-001-incremental-migration-v2"]
+    }
+  ],
+  "portfolio_analysis": {
+    "coverage": {
+      "developer_experience": ["ux-001-error-humanizer-v2", "ux-002-flow-guardian-v2", "fv-001-predictive-context-v2"],
+      "collaboration": ["fv-002-collaborative-replay-v2"],
+      "automation": ["fr-001-incremental-migration-v2", "fr-002-resource-optimizer-v2"],
+      "productivity": ["All ideas contribute to productivity gains"]
+    },
+    "synergies": [
+      {
+        "ideas": ["ux-001-error-humanizer-v2", "fv-002-collaborative-replay-v2"],
+        "synergy": "Error resolution and debugging work together for comprehensive bug handling"
+      },
+      {
+        "ideas": ["ux-002-flow-guardian-v2", "fv-001-predictive-context-v2"],
+        "synergy": "Both protect developer focus and reduce context switching"
+      },
+      {
+        "ideas": ["fr-001-incremental-migration-v2", "fr-002-resource-optimizer-v2"],
+        "synergy": "Migration and CI/CD optimization support continuous improvement"
+      }
+    ],
+    "implementation_sequence": [
+      "Phase 1: Quick wins - ux-001-error-humanizer-v2 (text-only), fr-002-resource-optimizer-v2",
+      "Phase 2: Flow improvements - ux-002-flow-guardian-v2, fv-001-predictive-context-v2",
+      "Phase 3: Advanced tools - fv-002-collaborative-replay-v2, fr-001-incremental-migration-v2"
+    ]
+  }
+}

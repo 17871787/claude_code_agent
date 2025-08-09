@@ -1,0 +1,458 @@
+[
+  {
+    "content": "Create directory structure for the refactored codebase",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Extract constants and configuration values",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Create calculation utilities and helper functions",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Split into smaller, focused components",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Implement proper state management",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Add input validation and error handling",
+    "status": "completed",
+    "priority": "high",
+    "id": "6"
+  },
+  {
+    "content": "Fix critical bugs (division by zero, parseInt issues)",
+    "status": "completed",
+    "priority": "high",
+    "id": "7"
+  },
+  {
+    "content": "Add TypeScript types for better type safety",
+    "status": "completed",
+    "priority": "medium",
+    "id": "8"
+  },
+  {
+    "content": "Create tests for calculation functions",
+    "status": "completed",
+    "priority": "medium",
+    "id": "9"
+  },
+  {
+    "content": "Improve performance with memoization",
+    "status": "completed",
+    "priority": "medium",
+    "id": "10"
+  },
+  {
+    "content": "Create main App component and remaining UI components",
+    "status": "completed",
+    "priority": "high",
+    "id": "11"
+  },
+  {
+    "content": "Fix accessibility issues - add id/name attributes to form fields",
+    "status": "completed",
+    "priority": "high",
+    "id": "12"
+  },
+  {
+    "content": "Fix accessibility issues - add labels to all form fields",
+    "status": "completed",
+    "priority": "high",
+    "id": "13"
+  },
+  {
+    "content": "Create GitHub Actions workflow for automated testing",
+    "status": "completed",
+    "priority": "medium",
+    "id": "14"
+  },
+  {
+    "content": "Implement WiT_Risk_Score calculation script",
+    "status": "completed",
+    "priority": "high",
+    "id": "15"
+  },
+  {
+    "content": "Set up Lighthouse CI for performance monitoring",
+    "status": "completed",
+    "priority": "low",
+    "id": "16"
+  },
+  {
+    "content": "Implement Risk Score feature based on emissions intensity",
+    "status": "completed",
+    "priority": "high",
+    "id": "17"
+  },
+  {
+    "content": "Add Loan Calculator with risk-based interest rates",
+    "status": "completed",
+    "priority": "high",
+    "id": "18"
+  },
+  {
+    "content": "Create technical documentation with equations and constants",
+    "status": "completed",
+    "priority": "high",
+    "id": "19"
+  },
+  {
+    "content": "Implement Scenario Builder - quick win demo",
+    "status": "completed",
+    "priority": "high",
+    "id": "20"
+  },
+  {
+    "content": "Create side-by-side comparison view",
+    "status": "completed",
+    "priority": "high",
+    "id": "21"
+  },
+  {
+    "content": "Document next-phase roadmap",
+    "status": "completed",
+    "priority": "medium",
+    "id": "22"
+  },
+  {
+    "content": "Create dashboard architecture with ViewContext",
+    "status": "completed",
+    "priority": "high",
+    "id": "23"
+  },
+  {
+    "content": "Migrate existing JSX to dashboard components",
+    "status": "completed",
+    "priority": "high",
+    "id": "24"
+  },
+  {
+    "content": "Implement lazy loading for chart libraries",
+    "status": "completed",
+    "priority": "high",
+    "id": "25"
+  },
+  {
+    "content": "Add Suspense boundaries for code splitting",
+    "status": "completed",
+    "priority": "medium",
+    "id": "26"
+  },
+  {
+    "content": "Fix emissions calculations to properly reflect poor performance",
+    "status": "completed",
+    "priority": "high",
+    "id": "27"
+  },
+  {
+    "content": "Add performance penalties for suboptimal KPIs",
+    "status": "completed",
+    "priority": "high",
+    "id": "28"
+  },
+  {
+    "content": "Adjust risk scoring sensitivity",
+    "status": "completed",
+    "priority": "high",
+    "id": "29"
+  },
+  {
+    "content": "Sprint 0: Refresh technical documentation with v3 architecture",
+    "status": "completed",
+    "priority": "high",
+    "id": "30"
+  },
+  {
+    "content": "Sprint 1: Re-enable feed parameters in Basic dashboard",
+    "status": "completed",
+    "priority": "high",
+    "id": "31"
+  },
+  {
+    "content": "Sprint 2: Implement NUE (Nitrogen Use Efficiency) into LME calculations",
+    "status": "completed",
+    "priority": "high",
+    "id": "32"
+  },
+  {
+    "content": "Sprint 3: Add feed levers and NUE hooks to Scenario Builder",
+    "status": "completed",
+    "priority": "medium",
+    "id": "33"
+  },
+  {
+    "content": "Sprint 4: Update exports (CSV/PDF) to include NUE metrics",
+    "status": "completed",
+    "priority": "medium",
+    "id": "34"
+  },
+  {
+    "content": "Sprint 5: Stakeholder testing and risk matrix validation",
+    "status": "pending",
+    "priority": "high",
+    "id": "35"
+  },
+  {
+    "content": "V4 Sprint 0: Add Theoretical Minimum constants and calculations",
+    "status": "completed",
+    "priority": "high",
+    "id": "36"
+  },
+  {
+    "content": "V4 Sprint 1: Implement Net-Carbon Glide Path 2.0 with TM line",
+    "status": "completed",
+    "priority": "high",
+    "id": "37"
+  },
+  {
+    "content": "V4 Sprint 2: Add Reduction Pathway logic",
+    "status": "completed",
+    "priority": "high",
+    "id": "42"
+  },
+  {
+    "content": "V4 Sprint 3: Create Green Financing module",
+    "status": "completed",
+    "priority": "high",
+    "id": "43"
+  },
+  {
+    "content": "V4 Sprint 4: Link financing to scenarios",
+    "status": "completed",
+    "priority": "medium",
+    "id": "44"
+  },
+  {
+    "content": "V4 Sprint 5: Update docs and exports for V4",
+    "status": "completed",
+    "priority": "medium",
+    "id": "45"
+  },
+  {
+    "content": "Debug missing features in production deployment",
+    "status": "completed",
+    "priority": "high",
+    "id": "46"
+  },
+  {
+    "content": "Optimize bundle size to under 150KB gzipped",
+    "status": "completed",
+    "priority": "high",
+    "id": "47"
+  },
+  {
+    "content": "Improve Lighthouse mobile score to 92+",
+    "status": "completed",
+    "priority": "high",
+    "id": "48"
+  },
+  {
+    "content": "Create v4 documentation tag and CHANGELOG",
+    "status": "completed",
+    "priority": "medium",
+    "id": "49"
+  },
+  {
+    "content": "Add React.memo to heavy chart components",
+    "status": "completed",
+    "priority": "medium",
+    "id": "50"
+  },
+  {
+    "content": "Implement feature flags system",
+    "status": "completed",
+    "priority": "low",
+    "id": "51"
+  },
+  {
+    "content": "Fix test suite for deployment readiness",
+    "status": "completed",
+    "priority": "high",
+    "id": "52"
+  },
+  {
+    "content": "Create deployment documentation for auto-compaction",
+    "status": "completed",
+    "priority": "high",
+    "id": "53"
+  },
+  {
+    "content": "Move Feed Parameters from BasicDashboard to FarmDashboard",
+    "status": "completed",
+    "priority": "high",
+    "id": "54"
+  },
+  {
+    "content": "Replace all dollar symbols with GBP pounds",
+    "status": "completed",
+    "priority": "high",
+    "id": "55"
+  },
+  {
+    "content": "Add milk price to state management",
+    "status": "completed",
+    "priority": "high",
+    "id": "56"
+  },
+  {
+    "content": "Create milk price slider in sidebar",
+    "status": "completed",
+    "priority": "high",
+    "id": "57"
+  },
+  {
+    "content": "Update economics calculations to use dynamic milk price",
+    "status": "completed",
+    "priority": "high",
+    "id": "58"
+  },
+  {
+    "content": "Update UI components to show reactive profit/revenue",
+    "status": "completed",
+    "priority": "high",
+    "id": "59"
+  },
+  {
+    "content": "Add tests for milk price changes",
+    "status": "completed",
+    "priority": "medium",
+    "id": "60"
+  },
+  {
+    "content": "Debug milk price slider not showing in production",
+    "status": "completed",
+    "priority": "high",
+    "id": "61"
+  },
+  {
+    "content": "Update technical documentation with milk price feature",
+    "status": "completed",
+    "priority": "high",
+    "id": "62"
+  },
+  {
+    "content": "Fix documentation inconsistencies from technical audit",
+    "status": "completed",
+    "priority": "high",
+    "id": "63"
+  },
+  {
+    "content": "Fix codebase to match corrected documentation",
+    "status": "completed",
+    "priority": "high",
+    "id": "64"
+  },
+  {
+    "content": "Remove duplicate feed parameter controls from BasicDashboard",
+    "status": "completed",
+    "priority": "high",
+    "id": "65"
+  },
+  {
+    "content": "P0: Add ESLint + Prettier configuration",
+    "status": "completed",
+    "priority": "high",
+    "id": "66"
+  },
+  {
+    "content": "P0: Add dependency audit to CI pipeline",
+    "status": "completed",
+    "priority": "high",
+    "id": "67"
+  },
+  {
+    "content": "P0: Add unit tests for economics calculations",
+    "status": "completed",
+    "priority": "high",
+    "id": "68"
+  },
+  {
+    "content": "P0: Add unit tests for greenFinancing calculations",
+    "status": "completed",
+    "priority": "high",
+    "id": "69"
+  },
+  {
+    "content": "P0: Add unit tests for performance calculations",
+    "status": "completed",
+    "priority": "high",
+    "id": "70"
+  },
+  {
+    "content": "P0: Add hook tests for useGlidePath",
+    "status": "completed",
+    "priority": "high",
+    "id": "71"
+  },
+  {
+    "content": "P0: Add integration test for Feed Quality to emissions flow",
+    "status": "completed",
+    "priority": "high",
+    "id": "72"
+  },
+  {
+    "content": "P1: Create global error boundary component",
+    "status": "completed",
+    "priority": "high",
+    "id": "73"
+  },
+  {
+    "content": "P1: Add jest-axe for accessibility testing",
+    "status": "completed",
+    "priority": "high",
+    "id": "74"
+  },
+  {
+    "content": "P1: Fix color-only indicators in Sidebar",
+    "status": "completed",
+    "priority": "high",
+    "id": "75"
+  },
+  {
+    "content": "Housekeeping: Review and clean up project files",
+    "status": "completed",
+    "priority": "low",
+    "id": "76"
+  },
+  {
+    "content": "Remove obsolete session and handoff documentation files",
+    "status": "completed",
+    "priority": "medium",
+    "id": "77"
+  },
+  {
+    "content": "Remove empty directories (chat, financing, src/tests)",
+    "status": "completed",
+    "priority": "low",
+    "id": "78"
+  },
+  {
+    "content": "Fix GitHub Actions CI failures",
+    "status": "completed",
+    "priority": "high",
+    "id": "79"
+  },
+  {
+    "content": "Fix all ESLint errors in codebase",
+    "status": "completed",
+    "priority": "high",
+    "id": "80"
+  }
+]

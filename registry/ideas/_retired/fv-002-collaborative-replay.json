@@ -1,0 +1,42 @@
+{
+  "idea_id": "fv-002-collaborative-replay",
+  "summary": "Time-travel debugging with multiplayer support - replay and debug code execution sessions collaboratively with team members in real-time",
+  "novelty": [
+    "First multiplayer time-travel debugging experience",
+    "Combines replay debugging with live collaboration",
+    "Creates shareable debugging session URLs"
+  ],
+  "feasibility_notes": [
+    "Can build on existing replay tools like rr or Chrome DevTools",
+    "WebRTC for real-time collaboration is mature",
+    "Start with JavaScript/TypeScript support"
+  ],
+  "risks": [
+    "Complex state synchronization challenges",
+    "High bandwidth requirements for replay data",
+    "Security implications of sharing execution traces"
+  ],
+  "impact_hypothesis": "Reduces debugging time for complex issues by 60% through parallel investigation and knowledge sharing",
+  "evidence": [
+    {
+      "claim": "Collaborative debugging reduces resolution time",
+      "support": ["Pair programming studies show 40-60% faster bug fixes", "Microsoft mob programming research"],
+      "confidence": 0.8
+    },
+    {
+      "claim": "Time-travel debugging improves understanding",
+      "support": ["rr debugger case studies", "Elm time-travel debugger adoption"],
+      "confidence": 0.7
+    }
+  ],
+  "score": {
+    "novelty": 0.95,
+    "feasibility": 0.5,
+    "impact": 0.85,
+    "risk": 0.45,
+    "composability": 0.75,
+    "calculated_total": 0.71
+  },
+  "retirement_reason": "Superseded by v2 version which adopts async-first approach, improving feasibility while maintaining innovation through novel debugging collaboration",
+  "retirement_date": "2025-08-09"
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "idea_id": "fv-001-predictive-context",
+    "summary": "AI-powered contextual workspace that predicts and pre-loads relevant files, tools, and documentation based on commit patterns and time-of-day coding habits",
+    "novelty": [
+      "Uses temporal pattern recognition for workspace optimization",
+      "Combines git history with IDE telemetry for prediction",
+      "Pre-fetches dependencies and documentation proactively"
+    ],
+    "feasibility_notes": [
+      "Can leverage existing git data and VS Code APIs",
+      "Initial MVP can focus on file prediction only",
+      "Gradual learning curve improves accuracy over time"
+    ],
+    "risks": [
+      "Privacy concerns with telemetry collection",
+      "Initial predictions may be inaccurate",
+      "Performance overhead from background processing"
+    ],
+    "impact_hypothesis": "Reduces context-switching time by 40% and improves developer flow state maintenance",
+    "evidence": [
+      {
+        "claim": "Developers spend 20% of time searching for files",
+        "support": ["Microsoft developer productivity studies", "Stack Overflow developer survey 2023"],
+        "confidence": 0.85
+      },
+      {
+        "claim": "Predictive interfaces improve task completion",
+        "support": ["Google Smart Compose increased email speed 30%", "GitHub Copilot adoption metrics"],
+        "confidence": 0.75
+      }
+    ],
+    "score": {
+      "novelty": 0.85,
+      "feasibility": 0.7,
+      "impact": 0.8,
+      "risk": 0.3,
+      "composability": 0.9,
+      "total": 0.0
+    },
+    "peer_critiques": [
+      {
+        "from": "feasibility-realist",
+        "feedback": "Strong concept but telemetry collection infrastructure is non-trivial. Consider starting with local-only patterns before cloud sync. The 40% time reduction claim needs validation through smaller pilot.",
+        "suggestions": ["Start with static analysis of import patterns", "Use local SQLite for pattern storage initially", "Add opt-in telemetry gradually"]
+      },
+      {
+        "from": "ux-advocate", 
+        "feedback": "Love the focus on flow state! Consider explicit user control over predictions to avoid 'creepy' feeling. Need clear privacy controls and ability to correct wrong predictions.",
+        "suggestions": ["Add 'teaching mode' where users can correct predictions", "Visual indicator showing why files were pre-loaded", "Quick toggle to disable when not wanted"]
+      }
+    ]
+  },
+  {
+    "idea_id": "fv-002-collaborative-replay",
+    "summary": "Time-travel debugging with multiplayer support - replay and debug code execution sessions collaboratively with team members in real-time",
+    "novelty": [
+      "First multiplayer time-travel debugging experience",
+      "Combines replay debugging with live collaboration",
+      "Creates shareable debugging session URLs"
+    ],
+    "feasibility_notes": [
+      "Can build on existing replay tools like rr or Chrome DevTools",
+      "WebRTC for real-time collaboration is mature",
+      "Start with JavaScript/TypeScript support"
+    ],
+    "risks": [
+      "Complex state synchronization challenges",
+      "High bandwidth requirements for replay data",
+      "Security implications of sharing execution traces"
+    ],
+    "impact_hypothesis": "Reduces debugging time for complex issues by 60% through parallel investigation and knowledge sharing",
+    "evidence": [
+      {
+        "claim": "Collaborative debugging reduces resolution time",
+        "support": ["Pair programming studies show 40-60% faster bug fixes", "Microsoft mob programming research"],
+        "confidence": 0.8
+      },
+      {
+        "claim": "Time-travel debugging improves understanding",
+        "support": ["rr debugger case studies", "Elm time-travel debugger adoption"],
+        "confidence": 0.7
+      }
+    ],
+    "score": {
+      "novelty": 0.95,
+      "feasibility": 0.5,
+      "impact": 0.85,
+      "risk": 0.45,
+      "composability": 0.75,
+      "total": 0.0
+    },
+    "peer_critiques": [
+      {
+        "from": "feasibility-realist",
+        "feedback": "Extremely ambitious - state sync alone is a PhD thesis. Start with async replay sharing (like Loom for debugging) before real-time. WebRTC complexity will eat your timeline.",
+        "suggestions": ["Begin with shareable replay recordings", "Add commenting/annotation layer first", "Real-time can be phase 2 after proving value"]
+      },
+      {
+        "from": "ux-advocate",
+        "feedback": "Powerful for complex bugs but high learning curve. Need dead-simple onboarding. Consider how junior devs will feel in multiplayer debugging sessions.",
+        "suggestions": ["Add 'spectator mode' for learning", "Built-in voice/text chat for coordination", "Privacy controls for sensitive code sections"]
+      }
+    ]
+  }
+]

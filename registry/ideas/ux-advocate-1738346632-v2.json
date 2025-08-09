@@ -1,0 +1,86 @@
+[
+  {
+    "idea_id": "ux-001-error-humanizer-v2",
+    "summary": "Progressive error enhancement system with auto-fix capabilities and collaborative resolution database",
+    "novelty": [
+      "Auto-fix for recognized patterns",
+      "Cross-project error learning network",
+      "Progressive enhancement loading strategy"
+    ],
+    "feasibility_notes": [
+      "Text-first with async diagram loading",
+      "Local LLM for speed and privacy",
+      "Pre-generated diagrams for common errors",
+      "Community database for solutions"
+    ],
+    "risks": [
+      "Auto-fix could introduce bugs",
+      "Database maintenance overhead",
+      "Network effect needed for value"
+    ],
+    "impact_hypothesis": "Reduces error resolution time by 45% and builds institutional knowledge across teams",
+    "evidence": [
+      {
+        "claim": "Auto-fix accelerates development",
+        "support": ["ESLint auto-fix adoption", "Prettier's productivity impact"],
+        "confidence": 0.9
+      },
+      {
+        "claim": "Shared knowledge reduces repeat issues",
+        "support": ["Stack Overflow's impact on productivity", "Internal wikis value studies"],
+        "confidence": 0.85
+      }
+    ],
+    "score": {
+      "novelty": 0.8,
+      "feasibility": 0.75,
+      "impact": 0.9,
+      "risk": 0.25,
+      "composability": 0.85,
+      "total": 0.0
+    },
+    "evolution_notes": "Added auto-fix and collaborative learning based on feedback. Addressed performance concerns with progressive enhancement. Pushed innovation while maintaining usability."
+  },
+  {
+    "idea_id": "ux-002-flow-guardian-v2",
+    "summary": "Platform-focused flow protection with manual control and AI-enhanced scheduling",
+    "novelty": [
+      "AI meeting scheduler based on team flow",
+      "Manual flow declaration with smart suggestions",
+      "Single platform deep integration"
+    ],
+    "feasibility_notes": [
+      "Start with Slack or Teams only",
+      "Simple metrics like typing cadence",
+      "Manual mode with AI recommendations",
+      "Team flow visualization dashboard"
+    ],
+    "risks": [
+      "Platform lock-in concerns",
+      "Adoption requires team buy-in",
+      "Flow metrics accuracy questions"
+    ],
+    "impact_hypothesis": "Increases team-wide deep work by 35% through coordinated focus time",
+    "evidence": [
+      {
+        "claim": "Coordinated focus time improves output",
+        "support": ["Basecamp's no-meeting days", "Shopify's meeting-free Thursdays"],
+        "confidence": 0.9
+      },
+      {
+        "claim": "Platform integration drives adoption",
+        "support": ["Slack app engagement rates", "Teams app usage statistics"],
+        "confidence": 0.85
+      }
+    ],
+    "score": {
+      "novelty": 0.7,
+      "feasibility": 0.85,
+      "impact": 0.85,
+      "risk": 0.25,
+      "composability": 0.75,
+      "total": 0.0
+    },
+    "evolution_notes": "Simplified to single platform focus based on feasibility feedback. Added manual control to address detection concerns. Maintained impact through team coordination features."
+  }
+]

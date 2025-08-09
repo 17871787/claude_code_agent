@@ -1,0 +1,86 @@
+[
+  {
+    "idea_id": "fr-001-incremental-migration-v2",
+    "summary": "AI-assisted incremental migration with visual progress tracking and emotional journey support",
+    "novelty": [
+      "LLM-powered translation suggestions",
+      "Migration confidence scoring system",
+      "Gamified progress with celebration milestones"
+    ],
+    "feasibility_notes": [
+      "Integrate local LLM for code suggestions",
+      "Visual dashboard using existing metrics",
+      "Migration diary as simple markdown log",
+      "Confidence scores from test coverage data"
+    ],
+    "risks": [
+      "LLM suggestion quality variance",
+      "Added complexity in UI layer",
+      "Gamification might feel patronizing"
+    ],
+    "impact_hypothesis": "Reduces migration timeline by 60% and improves developer satisfaction during transitions",
+    "evidence": [
+      {
+        "claim": "Visual progress improves motivation",
+        "support": ["GitHub contribution graph engagement", "Duolingo streak psychology"],
+        "confidence": 0.85
+      },
+      {
+        "claim": "AI assistance accelerates migration",
+        "support": ["GitHub Copilot productivity studies", "Amazon CodeWhisperer metrics"],
+        "confidence": 0.8
+      }
+    ],
+    "score": {
+      "novelty": 0.75,
+      "feasibility": 0.75,
+      "impact": 0.8,
+      "risk": 0.3,
+      "composability": 0.85,
+      "total": 0.0
+    },
+    "evolution_notes": "Added AI assistance and emotional journey support based on critiques. Balanced innovation with practical implementation. Maintained core incremental approach while enhancing user experience."
+  },
+  {
+    "idea_id": "fr-002-resource-optimizer-v2",
+    "summary": "Predictive CI/CD optimizer with failure prevention and developer time savings dashboard",
+    "novelty": [
+      "Build failure prediction from diff analysis",
+      "Time saved metrics and celebrations",
+      "Cross-project resource sharing pools"
+    ],
+    "feasibility_notes": [
+      "Diff analysis using existing AST tools",
+      "Time tracking via pipeline duration logs",
+      "Resource pools via Kubernetes namespaces",
+      "Smart scheduling with historical data"
+    ],
+    "risks": [
+      "False positive failure predictions",
+      "Resource contention in shared pools",
+      "Complexity of cross-team coordination"
+    ],
+    "impact_hypothesis": "Prevents 25% of build failures and saves 4 hours per developer per week",
+    "evidence": [
+      {
+        "claim": "Early failure detection saves time",
+        "support": ["Facebook's Predictive Test Selection", "Google's build prediction systems"],
+        "confidence": 0.85
+      },
+      {
+        "claim": "Visible time savings drives adoption",
+        "support": ["Spotify's developer productivity metrics", "Thoughtworks productivity dashboards"],
+        "confidence": 0.8
+      }
+    ],
+    "score": {
+      "novelty": 0.65,
+      "feasibility": 0.85,
+      "impact": 0.8,
+      "risk": 0.25,
+      "composability": 0.9,
+      "total": 0.0
+    },
+    "evolution_notes": "Enhanced with failure prediction and developer-centric metrics. Focused on time saved rather than just resources. Added innovation while maintaining high feasibility."
+  }
+]

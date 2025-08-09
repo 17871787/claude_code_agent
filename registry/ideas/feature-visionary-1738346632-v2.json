@@ -1,0 +1,86 @@
+[
+  {
+    "idea_id": "fv-001-predictive-context-v2",
+    "summary": "Local-first AI workspace predictor with privacy-preserving pattern learning and explicit user control",
+    "novelty": [
+      "Local SQLite pattern storage with optional sync",
+      "User-controlled prediction teaching mode",
+      "Progressive enhancement from static to dynamic"
+    ],
+    "feasibility_notes": [
+      "Start with import graph static analysis",
+      "Local-only MVP removes infrastructure complexity",
+      "Gradual rollout with clear opt-in controls",
+      "Visual indicators for prediction reasoning"
+    ],
+    "risks": [
+      "Initial accuracy still a concern",
+      "Local storage limitations",
+      "Performance overhead remains"
+    ],
+    "impact_hypothesis": "Reduces context-switching by 30% initially, growing to 45% as system learns user patterns",
+    "evidence": [
+      {
+        "claim": "Local-first reduces privacy concerns",
+        "support": ["Signal's local-first approach success", "Obsidian's offline-first adoption"],
+        "confidence": 0.9
+      },
+      {
+        "claim": "User control improves trust",
+        "support": ["GDPR compliance requirements", "Apple's privacy-first features adoption"],
+        "confidence": 0.85
+      }
+    ],
+    "score": {
+      "novelty": 0.75,
+      "feasibility": 0.85,
+      "impact": 0.75,
+      "risk": 0.2,
+      "composability": 0.95,
+      "total": 0.0
+    },
+    "evolution_notes": "Addressed privacy concerns and infrastructure complexity through local-first approach. Added explicit user control features based on UX feedback. Maintained innovation while improving feasibility."
+  },
+  {
+    "idea_id": "fv-002-collaborative-replay-v2",
+    "summary": "Async-first debugging replay platform with optional real-time collaboration layer",
+    "novelty": [
+      "Shareable debugging recordings with annotations",
+      "Async collaboration like Loom for debugging",
+      "Optional WebRTC upgrade for live sessions"
+    ],
+    "feasibility_notes": [
+      "Start with record and share functionality",
+      "Add commenting and annotation layers",
+      "Real-time as progressive enhancement",
+      "Include spectator mode for learning"
+    ],
+    "risks": [
+      "Storage requirements for recordings",
+      "Security of shared debug sessions",
+      "Adoption curve for new paradigm"
+    ],
+    "impact_hypothesis": "Reduces complex bug resolution time by 40% through async collaboration, 60% when real-time is needed",
+    "evidence": [
+      {
+        "claim": "Async collaboration reduces coordination overhead",
+        "support": ["Loom's async video success", "GitHub's async code review model"],
+        "confidence": 0.85
+      },
+      {
+        "claim": "Recording aids knowledge transfer",
+        "support": ["Screen recording for documentation trends", "Debugging session replay value"],
+        "confidence": 0.8
+      }
+    ],
+    "score": {
+      "novelty": 0.85,
+      "feasibility": 0.75,
+      "impact": 0.8,
+      "risk": 0.3,
+      "composability": 0.8,
+      "total": 0.0
+    },
+    "evolution_notes": "Pivoted to async-first based on feasibility feedback. Maintained innovation through novel application of recording to debugging. Added learning features from UX critique."
+  }
+]

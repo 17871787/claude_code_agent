@@ -1,0 +1,14 @@
+[
+  {
+    "content": "Check Vercel deployments and projects",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Investigate where Vercel stores the deployed code",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  }
+]

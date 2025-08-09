@@ -1,0 +1,42 @@
+{
+  "idea_id": "fv-001-predictive-context",
+  "summary": "AI-powered contextual workspace that predicts and pre-loads relevant files, tools, and documentation based on commit patterns and time-of-day coding habits",
+  "novelty": [
+    "Uses temporal pattern recognition for workspace optimization",
+    "Combines git history with IDE telemetry for prediction",
+    "Pre-fetches dependencies and documentation proactively"
+  ],
+  "feasibility_notes": [
+    "Can leverage existing git data and VS Code APIs",
+    "Initial MVP can focus on file prediction only",
+    "Gradual learning curve improves accuracy over time"
+  ],
+  "risks": [
+    "Privacy concerns with telemetry collection",
+    "Initial predictions may be inaccurate",
+    "Performance overhead from background processing"
+  ],
+  "impact_hypothesis": "Reduces context-switching time by 40% and improves developer flow state maintenance",
+  "evidence": [
+    {
+      "claim": "Developers spend 20% of time searching for files",
+      "support": ["Microsoft developer productivity studies", "Stack Overflow developer survey 2023"],
+      "confidence": 0.85
+    },
+    {
+      "claim": "Predictive interfaces improve task completion",
+      "support": ["Google Smart Compose increased email speed 30%", "GitHub Copilot adoption metrics"],
+      "confidence": 0.75
+    }
+  ],
+  "score": {
+    "novelty": 0.85,
+    "feasibility": 0.7,
+    "impact": 0.8,
+    "risk": 0.3,
+    "composability": 0.9,
+    "calculated_total": 0.785
+  },
+  "retirement_reason": "Superseded by v2 version which addresses privacy concerns through local-first approach and improves feasibility while maintaining innovation",
+  "retirement_date": "2025-08-09"
+}
