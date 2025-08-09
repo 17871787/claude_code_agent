@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "name": "vibelog-pro",
+  "builds": [
+    {
+      "src": "vibelog-pro/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/vibelog-pro/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/vibelog-pro/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/vibelog-pro/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/vibelog-pro/css/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

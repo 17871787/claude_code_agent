@@ -9,11 +9,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
     
-    <!-- Manifest for PWA -->
+    <!-- PWA Support -->
     <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon-192.png">
     
     <!-- Theme -->
     <meta name="theme-color" content="#2563eb">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
 </head>
 <body>
     <div id="app">
@@ -150,5 +153,30 @@
     <script src="lib/lz-string.min.js"></script>
     <script src="js/storage-manager.js"></script>
     <script src="js/app.js"></script>
+    
+    <!-- Progressive UX Scripts -->
+    <script src="js/keyboard-nav.js"></script>
+    <script src="js/command-palette.js"></script>
+    <script src="js/contextual-hints.js"></script>
+    <script src="js/smart-defaults.js"></script>
+    
+    <!-- Predictive System Scripts -->
+    <script src="js/predictive-engine.js"></script>
+    <script src="js/predictive-ui.js"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registered:', registration);
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed:', err);
+                    });
+            });
+        }
+    </script>
 </body>
 </html>

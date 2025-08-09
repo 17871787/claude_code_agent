@@ -1,0 +1,22 @@
+{
+  "name": "vibelog-pro",
+  "version": "1.0.0",
+  "description": "Offline-first time tracking PWA with predictive suggestions",
+  "scripts": {
+    "dev": "npx serve vibelog-pro",
+    "build": "echo \"No build required for static site\"",
+    "preview": "npx serve vibelog-pro"
+  },
+  "keywords": [
+    "time-tracking",
+    "pwa",
+    "offline-first",
+    "productivity",
+    "predictive-ui"
+  ],
+  "author": "Claude Code Agent",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}

@@ -28,3 +28,26 @@ credentials.json
 secrets.json
 **/credentials.json
 **/secrets.json
+# Dependencies
+node_modules/
+.env.local
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code internal
+.claude/
+
+# Vercel
+.vercel
+*.log
+
+# Build
+dist/
+build/
