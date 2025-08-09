@@ -1,181 +1,521 @@
 {
-  "scoring_metadata": {
-    "timestamp": 1738346700,
-    "total_candidates": 8,
-    "scoring_dimensions": ["novelty", "feasibility", "impact", "risk", "composability"],
+  "metadata": {
+    "total_candidates": 24,
+    "scoring_method": "detailed_reasoning",
     "weights": {
       "novelty": 0.25,
       "feasibility": 0.25,
       "impact": 0.3,
-      "risk": 0.1,
+      "risk_inverted": 0.1,
       "composability": 0.1
-    }
+    },
+    "cutline": 0.70
   },
-  "detailed_scores": [
+  "candidates": [
     {
+      "idea_id": "storage-foundation-e1",
       "rank": 1,
-      "idea_id": "ux-001-error-humanizer-v2",
-      "summary": "Progressive error enhancement system with auto-fix capabilities and collaborative resolution database",
-      "total_score": 0.815,
-      "dimension_scores": {
-        "novelty": 0.8,
-        "feasibility": 0.75,
-        "impact": 0.9,
-        "risk": 0.25,
-        "composability": 0.85
-      },
-      "reasoning": {
-        "novelty": "Auto-fix and cross-project learning network are innovative approaches to error handling",
-        "feasibility": "Progressive enhancement strategy and local LLM make implementation practical",
-        "impact": "45% error resolution improvement plus knowledge building creates massive value",
-        "risk": "Auto-fix could introduce bugs, but progressive approach mitigates this",
-        "composability": "Integrates well with existing error systems and can be adopted incrementally"
-      },
-      "implementation_notes": "Start with text-only MVP, add diagrams async, then layer in auto-fix capabilities",
-      "dependencies": ["Local LLM infrastructure", "Error pattern database", "Community contribution system"],
-      "complementary_ideas": ["fv-001-predictive-context-v2", "ux-002-flow-guardian-v2"]
-    },
-    {
-      "rank": 2,
-      "idea_id": "ux-002-flow-guardian-v2",
-      "summary": "Platform-focused flow protection with manual control and AI-enhanced scheduling",
-      "total_score": 0.8025,
-      "dimension_scores": {
-        "novelty": 0.7,
-        "feasibility": 0.85,
+      "scores": {
+        "novelty": 0.55,
+        "feasibility": 0.88,
         "impact": 0.85,
-        "risk": 0.25,
-        "composability": 0.75
-      },
-      "reasoning": {
-        "novelty": "AI meeting scheduling based on team flow state is relatively new",
-        "feasibility": "Single platform focus and manual controls make this very achievable",
-        "impact": "35% increase in deep work time is significant productivity gain",
-        "risk": "Platform lock-in and team adoption are manageable risks",
-        "composability": "Works well with existing tools but requires team coordination"
-      },
-      "implementation_notes": "Launch with Slack integration, manual flow declaration, then add AI predictions",
-      "dependencies": ["Slack/Teams API access", "Team buy-in", "Flow metrics collection"],
-      "complementary_ideas": ["fv-001-predictive-context-v2", "ux-001-error-humanizer-v2"]
-    },
-    {
-      "rank": 3,
-      "idea_id": "fv-002-collaborative-replay-v2",
-      "summary": "Async-first debugging replay platform with optional real-time collaboration layer",
-      "total_score": 0.795,
-      "dimension_scores": {
-        "novelty": 0.85,
-        "feasibility": 0.75,
-        "impact": 0.8,
-        "risk": 0.3,
-        "composability": 0.8
-      },
-      "reasoning": {
-        "novelty": "Applying Loom-style async to debugging is genuinely innovative",
-        "feasibility": "Async-first approach significantly reduces complexity vs real-time",
-        "impact": "40-60% reduction in complex bug resolution time is substantial",
-        "risk": "Storage and security concerns are addressable with proper architecture",
-        "composability": "Can integrate with existing debugging tools and workflows"
-      },
-      "implementation_notes": "Build recording layer first, add annotations, then optional real-time upgrade",
-      "dependencies": ["Recording infrastructure", "Secure storage", "Playback UI"],
-      "complementary_ideas": ["ux-001-error-humanizer-v2", "fr-002-resource-optimizer-v2"]
-    },
-    {
-      "rank": 4,
-      "idea_id": "fv-001-predictive-context-v2",
-      "summary": "Local-first AI workspace predictor with privacy-preserving pattern learning",
-      "total_score": 0.7875,
-      "dimension_scores": {
-        "novelty": 0.75,
-        "feasibility": 0.85,
-        "impact": 0.75,
         "risk": 0.2,
         "composability": 0.95
       },
+      "final_total": 0.7645,
       "reasoning": {
-        "novelty": "Local-first with teaching mode is moderately innovative",
-        "feasibility": "Local SQLite and static analysis make this very buildable",
-        "impact": "30-45% context-switching reduction is valuable but not transformative",
-        "risk": "Minimal risk with local-first approach and user controls",
-        "composability": "Excellent integration potential with any IDE or workflow"
-      },
-      "implementation_notes": "Start with import graph analysis, add local patterns, then teaching mode",
-      "dependencies": ["IDE plugin architecture", "Local SQLite", "Pattern recognition engine"],
-      "complementary_ideas": ["ux-002-flow-guardian-v2", "fr-001-incremental-migration-v2"]
+        "novelty": "Standard patterns but unified elegantly; compression and chunking are known but rarely combined well",
+        "feasibility": "Very achievable with proven techniques; LZ compression and localStorage are mature technologies",
+        "impact": "Foundation enables ALL other features; 10x capacity unlocks long-term value and analytics",
+        "risk": "Low risk with proper testing; main concern is migration bugs which can be mitigated",
+        "composability": "Perfect foundation layer; every other feature benefits from robust storage",
+        "summary": "Critical infrastructure piece that enables everything else with minimal risk"
+      }
     },
     {
+      "idea_id": "progressive-ux-e1",
+      "rank": 2,
+      "scores": {
+        "novelty": 0.68,
+        "feasibility": 0.82,
+        "impact": 0.84,
+        "risk": 0.18,
+        "composability": 0.88
+      },
+      "final_total": 0.762,
+      "reasoning": {
+        "novelty": "Progressive disclosure well-known but skill-aware adaptation is innovative",
+        "feasibility": "Straightforward implementation with tracking and tooltips",
+        "impact": "Dramatically improves onboarding and reduces time-to-value by 75%",
+        "risk": "Minimal risk; main concern is discovery which can be addressed",
+        "composability": "Integrates perfectly with all features providing unified help",
+        "summary": "Makes complex features accessible while maintaining power-user efficiency"
+      }
+    },
+    {
+      "idea_id": "visionary-predict-4",
+      "rank": 3,
+      "scores": {
+        "novelty": 0.72,
+        "feasibility": 0.78,
+        "impact": 0.82,
+        "risk": 0.18,
+        "composability": 0.87
+      },
+      "final_total": 0.7544,
+      "reasoning": {
+        "novelty": "Time-aware predictions unique in time tracking context",
+        "feasibility": "Trie structure and localStorage straightforward to implement",
+        "impact": "60% faster entry significantly improves daily usage",
+        "risk": "Storage limits manageable with LRU cache",
+        "composability": "Enhances all input methods; learns from user behavior",
+        "summary": "Smart feature that gets better over time with minimal complexity"
+      }
+    },
+    {
+      "idea_id": "visionary-adaptive-1",
+      "rank": 4,
+      "scores": {
+        "novelty": 0.78,
+        "feasibility": 0.72,
+        "impact": 0.88,
+        "risk": 0.28,
+        "composability": 0.82
+      },
+      "final_total": 0.752,
+      "reasoning": {
+        "novelty": "Page Visibility API for time tracking is innovative",
+        "feasibility": "APIs available; pattern learning adds complexity",
+        "impact": "80% reduction in forgotten entries is huge value",
+        "risk": "Privacy concerns real but addressable with controls",
+        "composability": "Works well with predictive suggestions and smart defaults",
+        "summary": "High-impact automation with manageable privacy concerns"
+      }
+    },
+    {
+      "idea_id": "undo-system-e1",
       "rank": 5,
-      "idea_id": "fr-001-incremental-migration-v2",
-      "summary": "AI-assisted incremental migration with visual progress tracking",
-      "total_score": 0.78,
-      "dimension_scores": {
-        "novelty": 0.75,
-        "feasibility": 0.75,
-        "impact": 0.8,
-        "risk": 0.3,
+      "scores": {
+        "novelty": 0.62,
+        "feasibility": 0.72,
+        "impact": 0.88,
+        "risk": 0.25,
         "composability": 0.85
       },
+      "final_total": 0.7515,
       "reasoning": {
-        "novelty": "Gamification and AI assistance for migrations is fairly innovative",
-        "feasibility": "Building on existing tools makes this achievable",
-        "impact": "60% timeline reduction for migrations is highly valuable",
-        "risk": "LLM quality variance and gamification reception are moderate risks",
-        "composability": "Works with any migration scenario and existing tooling"
-      },
-      "implementation_notes": "Implement core migration engine, add visual dashboard, then AI suggestions",
-      "dependencies": ["AST parsing", "Feature flags", "Local LLM", "Progress visualization"],
-      "complementary_ideas": ["fv-001-predictive-context-v2", "fr-002-resource-optimizer-v2"]
+        "novelty": "Universal undo beyond text is uncommon; visual history adds uniqueness",
+        "feasibility": "Command pattern is proven; memory management adds complexity",
+        "impact": "Transforms user confidence; 90% increase in exploration is massive",
+        "risk": "Memory and state sync are manageable with proper bounds",
+        "composability": "Works with every feature; especially valuable with complex operations",
+        "summary": "Fundamental UX improvement that removes fear and enables experimentation"
+      }
     },
     {
+      "idea_id": "ux-shortcuts-2",
       "rank": 6,
-      "idea_id": "fr-002-resource-optimizer-v2",
-      "summary": "Predictive CI/CD optimizer with failure prevention and time savings dashboard",
-      "total_score": 0.7775,
-      "dimension_scores": {
-        "novelty": 0.65,
-        "feasibility": 0.85,
-        "impact": 0.8,
+      "scores": {
+        "novelty": 0.62,
+        "feasibility": 0.86,
+        "impact": 0.82,
+        "risk": 0.14,
+        "composability": 0.91
+      },
+      "final_total": 0.7476,
+      "reasoning": {
+        "novelty": "Command palettes common but implementation quality varies",
+        "feasibility": "Very achievable with fuzzy search libraries",
+        "impact": "80% faster for power users; 5x efficiency proven",
+        "risk": "Minimal risk; shortcut conflicts easily managed",
+        "composability": "Perfect complement to all features; unified access point",
+        "summary": "Essential power-user feature with proven impact"
+      }
+    },
+    {
+      "idea_id": "offline-pwa-e1",
+      "rank": 7,
+      "scores": {
+        "novelty": 0.52,
+        "feasibility": 0.78,
+        "impact": 0.87,
         "risk": 0.25,
+        "composability": 0.92
+      },
+      "final_total": 0.744,
+      "reasoning": {
+        "novelty": "PWAs are common but zero-dependency approach is rare",
+        "feasibility": "Service workers mature; main challenge is update strategy",
+        "impact": "100% availability is killer feature; 80% faster loads transformative",
+        "risk": "iOS limitations exist but improving; graceful degradation handles it",
+        "composability": "Enables all features to work offline; foundation for reliability",
+        "summary": "Guarantees availability making it trustworthy for critical time tracking"
+      }
+    },
+    {
+      "idea_id": "smart-context-e1",
+      "rank": 8,
+      "scores": {
+        "novelty": 0.82,
+        "feasibility": 0.68,
+        "impact": 0.86,
+        "risk": 0.32,
+        "composability": 0.88
+      },
+      "final_total": 0.7416,
+      "reasoning": {
+        "novelty": "Unified smart tracking with privacy-first design is innovative",
+        "feasibility": "Complex but achievable; main challenge is coordinating features",
+        "impact": "85% reduction in tracking overhead is transformative",
+        "risk": "Privacy and battery concerns exist but mitigatable with controls",
+        "composability": "Central intelligence layer enhances all input methods",
+        "summary": "Ambitious but achievable automation that respects user privacy"
+      }
+    },
+    {
+      "idea_id": "ux-onboard-1",
+      "rank": 9,
+      "scores": {
+        "novelty": 0.52,
+        "feasibility": 0.91,
+        "impact": 0.83,
+        "risk": 0.18,
+        "composability": 0.82
+      },
+      "final_total": 0.7316,
+      "reasoning": {
+        "novelty": "Progressive disclosure is standard but execution matters",
+        "feasibility": "Very straightforward with localStorage tracking",
+        "impact": "70% faster time-to-value critical for adoption",
+        "risk": "Low risk; main issue is hint frequency",
+        "composability": "Foundation for all feature discovery",
+        "summary": "Essential for user success with complex features"
+      }
+    },
+    {
+      "idea_id": "performance-opt-e1",
+      "rank": 10,
+      "scores": {
+        "novelty": 0.48,
+        "feasibility": 0.85,
+        "impact": 0.82,
+        "risk": 0.22,
         "composability": 0.9
       },
+      "final_total": 0.7286,
       "reasoning": {
-        "novelty": "Failure prediction is somewhat novel but not groundbreaking",
-        "feasibility": "Very achievable with existing CI/CD APIs and tools",
-        "impact": "25% failure prevention and 4 hours/week saved is significant",
-        "risk": "False positives and resource contention are manageable",
-        "composability": "Excellent integration with any CI/CD platform"
+        "novelty": "Optimistic UI is standard but unified approach adds value",
+        "feasibility": "Well-understood patterns; implementation straightforward",
+        "impact": "200% perceived speed improvement dramatically improves UX",
+        "risk": "Rollback complexity manageable with proper error handling",
+        "composability": "Enhances every interaction; especially valuable with storage layer",
+        "summary": "Makes app feel instant even on slow devices"
+      }
+    },
+    {
+      "idea_id": "visual-time-e1",
+      "rank": 11,
+      "scores": {
+        "novelty": 0.7,
+        "feasibility": 0.7,
+        "impact": 0.78,
+        "risk": 0.3,
+        "composability": 0.75
       },
-      "implementation_notes": "Start with resource optimization, add failure prediction, then dashboards",
-      "dependencies": ["CI/CD platform APIs", "Historical data access", "Kubernetes"],
-      "complementary_ideas": ["fv-002-collaborative-replay-v2", "fr-001-incremental-migration-v2"]
+      "final_total": 0.72,
+      "reasoning": {
+        "novelty": "Accessible visual calendar uncommon in time trackers",
+        "feasibility": "CSS Grid and drag-drop are mature; complexity in interactions",
+        "impact": "65% better comprehension helps planning and review",
+        "risk": "Performance with large datasets needs optimization",
+        "composability": "Complements other features well; especially undo system",
+        "summary": "Visual representation crucial for time awareness"
+      }
+    },
+    {
+      "idea_id": "visionary-mood-6",
+      "rank": 12,
+      "scores": {
+        "novelty": 0.76,
+        "feasibility": 0.88,
+        "impact": 0.68,
+        "risk": 0.28,
+        "composability": 0.76
+      },
+      "final_total": 0.7184,
+      "reasoning": {
+        "novelty": "Mood tracking in professional context is rare",
+        "feasibility": "Simple emoji picker implementation",
+        "impact": "30% satisfaction improvement valuable but not critical",
+        "risk": "Privacy and cultural concerns manageable",
+        "composability": "Adds metadata layer to all time entries",
+        "summary": "Interesting addition for self-aware teams"
+      }
+    },
+    {
+      "idea_id": "visionary-voice-2",
+      "rank": 13,
+      "scores": {
+        "novelty": 0.8,
+        "feasibility": 0.62,
+        "impact": 0.83,
+        "risk": 0.38,
+        "composability": 0.72
+      },
+      "final_total": 0.7124,
+      "reasoning": {
+        "novelty": "Voice time entry rare; natural language processing unique",
+        "feasibility": "Web Speech API limited; fallbacks needed",
+        "impact": "70% faster entry is compelling for mobile users",
+        "risk": "Browser support and accuracy are real concerns",
+        "composability": "Complements other input methods well",
+        "summary": "Forward-thinking but requires careful fallback strategy"
+      }
+    },
+    {
+      "idea_id": "multimodal-input-e1",
+      "rank": 14,
+      "scores": {
+        "novelty": 0.78,
+        "feasibility": 0.58,
+        "impact": 0.83,
+        "risk": 0.38,
+        "composability": 0.78
+      },
+      "final_total": 0.7084,
+      "reasoning": {
+        "novelty": "Unified multimodal input rare in web apps",
+        "feasibility": "Complex coordination but individual pieces proven",
+        "impact": "90% faster entry through preferred method is compelling",
+        "risk": "Interaction complexity and learning curve are concerns",
+        "composability": "Central input system but adds complexity to other features",
+        "summary": "Ambitious accessibility win but requires careful implementation"
+      }
+    },
+    {
+      "idea_id": "ux-undo-5",
+      "rank": 15,
+      "scores": {
+        "novelty": 0.56,
+        "feasibility": 0.67,
+        "impact": 0.83,
+        "risk": 0.28,
+        "composability": 0.81
+      },
+      "final_total": 0.7041,
+      "reasoning": {
+        "novelty": "Universal undo beyond text is uncommon",
+        "feasibility": "Command pattern adds complexity",
+        "impact": "90% more exploration is transformative",
+        "risk": "Memory management needs careful design",
+        "composability": "Valuable for all features",
+        "summary": "Core UX enhancement worth the complexity"
+      }
+    },
+    {
+      "idea_id": "focus-wellness-e1",
+      "rank": 16,
+      "scores": {
+        "novelty": 0.73,
+        "feasibility": 0.72,
+        "impact": 0.76,
+        "risk": 0.33,
+        "composability": 0.72
+      },
+      "final_total": 0.7031,
+      "reasoning": {
+        "novelty": "Integrated wellness in time tracking is uncommon",
+        "feasibility": "Complex feature set but individual pieces simple",
+        "impact": "45% productivity gain with burnout reduction valuable",
+        "risk": "Privacy concerns with mood data need careful handling",
+        "composability": "Works with focus features but adds complexity",
+        "summary": "Holistic approach to sustainable productivity"
+      }
+    },
+    {
+      "idea_id": "ux-smart-4",
+      "rank": 17,
+      "scores": {
+        "novelty": 0.68,
+        "feasibility": 0.76,
+        "impact": 0.72,
+        "risk": 0.23,
+        "composability": 0.77
+      },
+      "final_total": 0.6991,
+      "reasoning": {
+        "novelty": "Smart defaults common but time-aware adaptation unique",
+        "feasibility": "Straightforward statistics and localStorage",
+        "impact": "50% faster form filling adds up over time",
+        "risk": "Privacy concerns minor with local storage",
+        "composability": "Enhances all forms throughout app",
+        "summary": "Subtle but effective productivity enhancement"
+      }
+    },
+    {
+      "idea_id": "realist-validate-5",
+      "rank": 18,
+      "scores": {
+        "novelty": 0.38,
+        "feasibility": 0.82,
+        "impact": 0.78,
+        "risk": 0.32,
+        "composability": 0.91
+      },
+      "final_total": 0.6926,
+      "reasoning": {
+        "novelty": "Schema versioning is standard practice",
+        "feasibility": "Well-understood pattern with clear implementation",
+        "impact": "30% retention improvement through reliable upgrades",
+        "risk": "Migration bugs serious but testable",
+        "composability": "Essential for storage layer evolution",
+        "summary": "Unglamorous but critical for long-term sustainability"
+      }
+    },
+    {
+      "idea_id": "realist-perf-8",
+      "rank": 19,
+      "scores": {
+        "novelty": 0.42,
+        "feasibility": 0.88,
+        "impact": 0.76,
+        "risk": 0.2,
+        "composability": 0.86
+      },
+      "final_total": 0.6916,
+      "reasoning": {
+        "novelty": "Optimistic UI is industry standard",
+        "feasibility": "Well-understood implementation",
+        "impact": "Perceived performance crucial for satisfaction",
+        "risk": "Rollback complexity manageable",
+        "composability": "Enhances all interactions",
+        "summary": "Standard but necessary optimization"
+      }
+    },
+    {
+      "idea_id": "realist-offline-2",
+      "rank": 20,
+      "scores": {
+        "novelty": 0.42,
+        "feasibility": 0.72,
+        "impact": 0.83,
+        "risk": 0.38,
+        "composability": 0.91
+      },
+      "final_total": 0.6884,
+      "reasoning": {
+        "novelty": "PWAs are becoming standard",
+        "feasibility": "Service worker complexity but well-documented",
+        "impact": "100% availability critical for time tracking",
+        "risk": "iOS limitations and sync conflicts are concerns",
+        "composability": "Enables all features offline",
+        "summary": "Table stakes for modern app but still valuable"
+      }
+    },
+    {
+      "idea_id": "realist-batch-3",
+      "rank": 21,
+      "scores": {
+        "novelty": 0.32,
+        "feasibility": 0.93,
+        "impact": 0.72,
+        "risk": 0.18,
+        "composability": 0.94
+      },
+      "final_total": 0.6864,
+      "reasoning": {
+        "novelty": "Batch writing is standard optimization",
+        "feasibility": "Simple queue implementation",
+        "impact": "90% I/O reduction critical for performance",
+        "risk": "Data loss on crash manageable with WAL",
+        "composability": "Foundation for all storage operations",
+        "summary": "Essential optimization for mobile performance"
+      }
+    },
+    {
+      "idea_id": "ux-visual-3",
+      "rank": 22,
+      "scores": {
+        "novelty": 0.63,
+        "feasibility": 0.71,
+        "impact": 0.74,
+        "risk": 0.33,
+        "composability": 0.71
+      },
+      "final_total": 0.6801,
+      "reasoning": {
+        "novelty": "Visual calendars common but implementation matters",
+        "feasibility": "Drag-drop complexity but achievable",
+        "impact": "60% better time awareness helps planning",
+        "risk": "Performance and complexity concerns",
+        "composability": "Good standalone feature",
+        "summary": "Expected feature for visual thinkers"
+      }
+    },
+    {
+      "idea_id": "micro-feedback-e1",
+      "rank": 23,
+      "scores": {
+        "novelty": 0.63,
+        "feasibility": 0.76,
+        "impact": 0.67,
+        "risk": 0.25,
+        "composability": 0.74
+      },
+      "final_total": 0.6765,
+      "reasoning": {
+        "novelty": "Battery-aware feedback is thoughtful touch",
+        "feasibility": "Simple animations and sound implementation",
+        "impact": "40% satisfaction improvement is nice-to-have",
+        "risk": "Performance overhead manageable",
+        "composability": "Enhances all interactions subtly",
+        "summary": "Polish feature for mature product"
+      }
+    },
+    {
+      "idea_id": "realist-storage-1",
+      "rank": 24,
+      "scores": {
+        "novelty": 0.48,
+        "feasibility": 0.87,
+        "impact": 0.62,
+        "risk": 0.28,
+        "composability": 0.84
+      },
+      "final_total": 0.6594,
+      "reasoning": {
+        "novelty": "Compression and chunking are known techniques",
+        "feasibility": "LZ compression straightforward",
+        "impact": "10x storage enables better analytics",
+        "risk": "Recovery complexity needs attention",
+        "composability": "Good foundation feature",
+        "summary": "Solid infrastructure improvement"
+      }
     }
   ],
-  "portfolio_analysis": {
-    "coverage": {
-      "developer_experience": ["ux-001-error-humanizer-v2", "ux-002-flow-guardian-v2", "fv-001-predictive-context-v2"],
-      "collaboration": ["fv-002-collaborative-replay-v2"],
-      "automation": ["fr-001-incremental-migration-v2", "fr-002-resource-optimizer-v2"],
-      "productivity": ["All ideas contribute to productivity gains"]
-    },
-    "synergies": [
-      {
-        "ideas": ["ux-001-error-humanizer-v2", "fv-002-collaborative-replay-v2"],
-        "synergy": "Error resolution and debugging work together for comprehensive bug handling"
-      },
-      {
-        "ideas": ["ux-002-flow-guardian-v2", "fv-001-predictive-context-v2"],
-        "synergy": "Both protect developer focus and reduce context switching"
-      },
-      {
-        "ideas": ["fr-001-incremental-migration-v2", "fr-002-resource-optimizer-v2"],
-        "synergy": "Migration and CI/CD optimization support continuous improvement"
-      }
+  "implementation_notes": {
+    "dependencies": [
+      "storage-foundation-e1 should be implemented first as foundation",
+      "progressive-ux-e1 and undo-system-e1 can be parallel",
+      "performance-opt-e1 depends on storage-foundation-e1",
+      "multimodal-input-e1 should come after basic features"
     ],
-    "implementation_sequence": [
-      "Phase 1: Quick wins - ux-001-error-humanizer-v2 (text-only), fr-002-resource-optimizer-v2",
-      "Phase 2: Flow improvements - ux-002-flow-guardian-v2, fv-001-predictive-context-v2",
-      "Phase 3: Advanced tools - fv-002-collaborative-replay-v2, fr-001-incremental-migration-v2"
+    "complementary_sets": [
+      {
+        "name": "Core Foundation",
+        "ideas": ["storage-foundation-e1", "offline-pwa-e1", "performance-opt-e1"],
+        "rationale": "Essential infrastructure for reliability and performance"
+      },
+      {
+        "name": "UX Excellence",
+        "ideas": ["progressive-ux-e1", "undo-system-e1", "ux-shortcuts-2"],
+        "rationale": "Dramatically improves usability and reduces friction"
+      },
+      {
+        "name": "Smart Automation",
+        "ideas": ["smart-context-e1", "visionary-predict-4", "visionary-adaptive-1"],
+        "rationale": "Intelligent features that reduce manual work"
+      }
     ]
   }
 }
