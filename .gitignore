@@ -1,0 +1,30 @@
+# Claude configuration - contains sensitive credentials
+.claude/
+.claude/.credentials.json
+.claude/**/*.json
+
+# Statsig
+.claude/statsig/
+
+# Shell snapshots  
+.claude/shell-snapshots/
+
+# Todos
+.claude/todos/
+
+# Projects
+.claude/projects/
+
+# Settings with potential secrets
+.claude/settings.json
+.claude/settings.local.json
+
+# General security
+*.key
+*.pem
+*.env
+.env.*
+credentials.json
+secrets.json
+**/credentials.json
+**/secrets.json
