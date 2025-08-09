@@ -1,0 +1,146 @@
+{
+  "visionary-adaptive-1": {
+    "collisions": ["visionary-ambient-3", "visionary-predict-4", "ux-smart-4"],
+    "gaps": ["Battery drain from continuous monitoring", "Privacy controls for window tracking", "Multi-monitor support", "PWA vs browser tab handling"],
+    "fixes": ["Add user-controlled sensitivity settings", "Implement battery-aware monitoring", "Create privacy dashboard", "Support manual override", "Add cross-device sync"],
+    "risk": 0.45
+  },
+  "visionary-voice-2": {
+    "collisions": ["ux-natural-7", "visionary-gesture-5", "ux-shortcuts-2"],
+    "gaps": ["Offline speech recognition", "Multi-language support", "Accessibility for hearing-impaired", "Voice training period"],
+    "fixes": ["Add offline fallback dictionary", "Implement confidence scoring", "Create voice command cheatsheet", "Support custom wake words", "Add undo for misrecognition"],
+    "risk": 0.5
+  },
+  "visionary-ambient-3": {
+    "collisions": ["visionary-adaptive-1", "visionary-micro-8"],
+    "gaps": ["Definition of 'activity'", "Privacy opt-out mechanism", "Cross-tab coordination", "Mobile interaction patterns"],
+    "fixes": ["Add clear activity metrics", "Create opt-in consent flow", "Implement cross-tab messaging", "Support touch interactions", "Add calibration wizard"],
+    "risk": 0.55
+  },
+  "visionary-predict-4": {
+    "collisions": ["ux-smart-4", "visionary-adaptive-1"],
+    "gaps": ["Storage cleanup strategy", "Import/export predictions", "Team vs personal predictions", "Cold start experience"],
+    "fixes": ["Implement LRU cache with limits", "Add prediction accuracy metrics", "Create onboarding samples", "Support team templates", "Add manual training mode"],
+    "risk": 0.25
+  },
+  "visionary-gesture-5": {
+    "collisions": ["visionary-voice-2", "ux-shortcuts-2", "ux-visual-3"],
+    "gaps": ["Desktop gesture support", "Accessibility alternatives", "Gesture conflict resolution", "Discovery mechanism"],
+    "fixes": ["Add mouse gesture support", "Create gesture tutorial", "Implement conflict detection", "Add haptic feedback", "Support custom gestures"],
+    "risk": 0.5
+  },
+  "visionary-mood-6": {
+    "collisions": ["visionary-ambient-3"],
+    "gaps": ["Cultural emoji differences", "Mental health sensitivity", "Team visibility controls", "Mood data retention"],
+    "fixes": ["Add text-based alternatives", "Implement privacy controls", "Create mood insights dashboard", "Add data retention settings", "Support mood trends analysis"],
+    "risk": 0.35
+  },
+  "visionary-collab-7": {
+    "collisions": ["ux-focus-6", "realist-offline-2", "realist-minimal-6"],
+    "gaps": ["Offline mode compatibility", "Time zone handling", "Session scheduling", "Privacy controls"],
+    "fixes": ["Add local-only mode", "Implement presence indicators", "Create session templates", "Add do-not-disturb mode", "Support async checkins"],
+    "risk": 0.65
+  },
+  "visionary-micro-8": {
+    "collisions": ["ux-focus-6", "visionary-ambient-3"],
+    "gaps": ["Break type variety", "Emergency override", "Team synchronization", "Health condition awareness"],
+    "fixes": ["Add break activity suggestions", "Implement snooze limits", "Create team break sync", "Add medical profile support", "Support flexible intervals"],
+    "risk": 0.3
+  },
+  "realist-storage-1": {
+    "collisions": ["realist-validate-5"],
+    "gaps": ["Compression algorithm choice", "Cross-browser testing", "Data recovery tools", "Performance monitoring"],
+    "fixes": ["Add compression benchmarks", "Implement integrity checks", "Create recovery utilities", "Add storage analytics", "Support incremental compression"],
+    "risk": 0.35
+  },
+  "realist-offline-2": {
+    "collisions": ["visionary-collab-7", "realist-minimal-6"],
+    "gaps": ["Update notification strategy", "Sync conflict resolution", "Cache invalidation", "PWA store requirements"],
+    "fixes": ["Add version checking", "Implement conflict UI", "Create cache strategies", "Add install prompts", "Support background sync"],
+    "risk": 0.45
+  },
+  "realist-batch-3": {
+    "collisions": ["realist-perf-8"],
+    "gaps": ["Error recovery mechanism", "Queue size limits", "Priority handling", "Crash recovery"],
+    "fixes": ["Add write-ahead log", "Implement queue monitoring", "Create priority levels", "Add auto-recovery", "Support manual flush"],
+    "risk": 0.25
+  },
+  "realist-fallback-4": {
+    "collisions": ["visionary-voice-2", "visionary-collab-7"],
+    "gaps": ["Permission request timing", "Feature parity documentation", "Graceful upgrade paths", "Permission rationale"],
+    "fixes": ["Add permission wizard", "Create feature matrix", "Implement gradual upgrades", "Add benefit explanations", "Support permission memory"],
+    "risk": 0.2
+  },
+  "realist-validate-5": {
+    "collisions": ["realist-storage-1"],
+    "gaps": ["Migration testing strategy", "Rollback procedures", "Multi-version support", "Migration progress UI"],
+    "fixes": ["Add migration simulator", "Implement backup system", "Create version compatibility matrix", "Add progress indicators", "Support dry runs"],
+    "risk": 0.4
+  },
+  "realist-minimal-6": {
+    "collisions": ["realist-offline-2", "visionary-collab-7"],
+    "gaps": ["Developer experience", "Debugging tools", "Performance profiling", "Code organization"],
+    "fixes": ["Add dev mode with logging", "Create module system", "Implement performance marks", "Add documentation generator", "Support source maps"],
+    "risk": 0.15
+  },
+  "realist-test-7": {
+    "collisions": [],
+    "gaps": ["Test data management", "Cross-browser testing", "Performance benchmarks", "Accessibility testing"],
+    "fixes": ["Add test fixtures", "Implement browser matrix", "Create performance suite", "Add a11y assertions", "Support test recordings"],
+    "risk": 0.35
+  },
+  "realist-perf-8": {
+    "collisions": ["realist-batch-3"],
+    "gaps": ["Rollback mechanisms", "User expectations management", "Error state handling", "Performance metrics"],
+    "fixes": ["Add rollback animations", "Implement loading states", "Create error recovery UI", "Add performance monitoring", "Support user preferences"],
+    "risk": 0.25
+  },
+  "ux-onboard-1": {
+    "collisions": ["ux-focus-6"],
+    "gaps": ["Re-engagement strategy", "Skill level adaptation", "Feature changelog", "Help search"],
+    "fixes": ["Add help center", "Implement skill tracking", "Create what's new section", "Add contextual search", "Support guided tours"],
+    "risk": 0.25
+  },
+  "ux-shortcuts-2": {
+    "collisions": ["visionary-voice-2", "visionary-gesture-5", "ux-natural-7"],
+    "gaps": ["Shortcut customization", "Conflict detection", "Mobile alternatives", "Discovery mechanism"],
+    "fixes": ["Add shortcut editor", "Implement conflict checker", "Create mobile menu", "Add command hints", "Support shortcut export"],
+    "risk": 0.2
+  },
+  "ux-visual-3": {
+    "collisions": ["visionary-gesture-5"],
+    "gaps": ["Colorblind support", "Dense data handling", "Mobile viewport", "Print layout"],
+    "fixes": ["Add color themes", "Implement zoom levels", "Create responsive design", "Add print stylesheet", "Support data filtering"],
+    "risk": 0.4
+  },
+  "ux-smart-4": {
+    "collisions": ["visionary-predict-4", "visionary-adaptive-1"],
+    "gaps": ["Learning rate control", "Data privacy", "Team vs personal defaults", "Reset mechanism"],
+    "fixes": ["Add learning toggles", "Implement privacy modes", "Create profile system", "Add reset options", "Support default templates"],
+    "risk": 0.3
+  },
+  "ux-undo-5": {
+    "collisions": [],
+    "gaps": ["Undo scope clarity", "Memory management", "Collaborative undo", "Persistence strategy"],
+    "fixes": ["Add undo scope indicators", "Implement memory limits", "Create undo groups", "Add session recovery", "Support selective undo"],
+    "risk": 0.35
+  },
+  "ux-focus-6": {
+    "collisions": ["visionary-collab-7", "visionary-micro-8", "ux-onboard-1"],
+    "gaps": ["Emergency exit", "Focus session data", "Integration with calendar", "Team awareness"],
+    "fixes": ["Add panic button", "Implement session tracking", "Create calendar sync", "Add status broadcasting", "Support focus goals"],
+    "risk": 0.25
+  },
+  "ux-natural-7": {
+    "collisions": ["visionary-voice-2", "ux-shortcuts-2"],
+    "gaps": ["Parsing accuracy feedback", "International formats", "Timezone handling", "Training examples"],
+    "fixes": ["Add confidence indicators", "Implement locale detection", "Create timezone selector", "Add example library", "Support corrections"],
+    "risk": 0.4
+  },
+  "ux-haptic-8": {
+    "collisions": [],
+    "gaps": ["Performance budget", "Accessibility impact", "User preferences", "Battery consideration"],
+    "fixes": ["Add performance monitoring", "Implement a11y modes", "Create preference panel", "Add battery detection", "Support feedback levels"],
+    "risk": 0.3
+  }
+}

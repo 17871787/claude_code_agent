@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "total_ideas": 35,
+    "selected_count": 24,
+    "selection_percentage": 68.6,
+    "score_cutoff": 0.635,
+    "weights": {
+      "novelty": 0.25,
+      "feasibility": 0.25,
+      "impact": 0.3,
+      "risk_inverted": 0.1,
+      "composability": 0.1
+    }
+  },
+  "scores": [
+    {"idea_id": "smart-context-e1", "novelty": 0.85, "feasibility": 0.65, "impact": 0.88, "risk": 0.35, "composability": 0.9, "quick_total": 0.7725, "rank": 1, "kept": true},
+    {"idea_id": "progressive-ux-e1", "novelty": 0.65, "feasibility": 0.8, "impact": 0.82, "risk": 0.22, "composability": 0.85, "quick_total": 0.7455, "rank": 2, "kept": true},
+    {"idea_id": "undo-system-e1", "novelty": 0.6, "feasibility": 0.7, "impact": 0.86, "risk": 0.28, "composability": 0.82, "quick_total": 0.74, "rank": 3, "kept": true},
+    {"idea_id": "storage-foundation-e1", "novelty": 0.55, "feasibility": 0.85, "impact": 0.8, "risk": 0.25, "composability": 0.95, "quick_total": 0.7375, "rank": 4, "kept": true},
+    {"idea_id": "multimodal-input-e1", "novelty": 0.8, "feasibility": 0.55, "impact": 0.85, "risk": 0.4, "composability": 0.75, "quick_total": 0.7275, "rank": 5, "kept": true},
+    {"idea_id": "offline-pwa-e1", "novelty": 0.5, "feasibility": 0.75, "impact": 0.85, "risk": 0.3, "composability": 0.9, "quick_total": 0.72, "rank": 6, "kept": true},
+    {"idea_id": "performance-opt-e1", "novelty": 0.45, "feasibility": 0.82, "impact": 0.8, "risk": 0.25, "composability": 0.88, "quick_total": 0.7115, "rank": 7, "kept": true},
+    {"idea_id": "visual-time-e1", "novelty": 0.7, "feasibility": 0.68, "impact": 0.76, "risk": 0.32, "composability": 0.72, "quick_total": 0.706, "rank": 8, "kept": true},
+    {"idea_id": "focus-wellness-e1", "novelty": 0.75, "feasibility": 0.7, "impact": 0.78, "risk": 0.35, "composability": 0.7, "quick_total": 0.7045, "rank": 9, "kept": true},
+    {"idea_id": "visionary-adaptive-1", "novelty": 0.8, "feasibility": 0.7, "impact": 0.9, "risk": 0.3, "composability": 0.8, "quick_total": 0.745, "rank": 10, "kept": true},
+    {"idea_id": "visionary-voice-2", "novelty": 0.85, "feasibility": 0.6, "impact": 0.85, "risk": 0.4, "composability": 0.7, "quick_total": 0.7225, "rank": 11, "kept": true},
+    {"idea_id": "visionary-predict-4", "novelty": 0.7, "feasibility": 0.75, "impact": 0.8, "risk": 0.2, "composability": 0.85, "quick_total": 0.7375, "rank": 12, "kept": true},
+    {"idea_id": "visionary-mood-6", "novelty": 0.8, "feasibility": 0.9, "impact": 0.65, "risk": 0.3, "composability": 0.75, "quick_total": 0.7175, "rank": 13, "kept": true},
+    {"idea_id": "realist-storage-1", "novelty": 0.5, "feasibility": 0.9, "impact": 0.6, "risk": 0.3, "composability": 0.85, "quick_total": 0.665, "rank": 14, "kept": true},
+    {"idea_id": "realist-offline-2", "novelty": 0.4, "feasibility": 0.7, "impact": 0.85, "risk": 0.4, "composability": 0.9, "quick_total": 0.685, "rank": 15, "kept": true},
+    {"idea_id": "realist-validate-5", "novelty": 0.35, "feasibility": 0.8, "impact": 0.8, "risk": 0.35, "composability": 0.9, "quick_total": 0.6875, "rank": 16, "kept": true},
+    {"idea_id": "ux-onboard-1", "novelty": 0.5, "feasibility": 0.9, "impact": 0.85, "risk": 0.2, "composability": 0.8, "quick_total": 0.71, "rank": 17, "kept": true},
+    {"idea_id": "ux-shortcuts-2", "novelty": 0.6, "feasibility": 0.85, "impact": 0.8, "risk": 0.15, "composability": 0.9, "quick_total": 0.7275, "rank": 18, "kept": true},
+    {"idea_id": "ux-undo-5", "novelty": 0.55, "feasibility": 0.65, "impact": 0.85, "risk": 0.3, "composability": 0.8, "quick_total": 0.695, "rank": 19, "kept": true},
+    {"idea_id": "realist-batch-3", "novelty": 0.3, "feasibility": 0.95, "impact": 0.7, "risk": 0.2, "composability": 0.95, "quick_total": 0.6725, "rank": 20, "kept": true},
+    {"idea_id": "realist-perf-8", "novelty": 0.4, "feasibility": 0.9, "impact": 0.75, "risk": 0.2, "composability": 0.85, "quick_total": 0.6825, "rank": 21, "kept": true},
+    {"idea_id": "ux-visual-3", "novelty": 0.65, "feasibility": 0.7, "impact": 0.75, "risk": 0.35, "composability": 0.7, "quick_total": 0.68, "rank": 22, "kept": true},
+    {"idea_id": "ux-smart-4", "novelty": 0.7, "feasibility": 0.75, "impact": 0.7, "risk": 0.25, "composability": 0.75, "quick_total": 0.6825, "rank": 23, "kept": true},
+    {"idea_id": "micro-feedback-e1", "novelty": 0.65, "feasibility": 0.78, "impact": 0.65, "risk": 0.27, "composability": 0.73, "quick_total": 0.678, "rank": 24, "kept": true},
+    {"idea_id": "visionary-ambient-3", "novelty": 0.9, "feasibility": 0.8, "impact": 0.6, "risk": 0.5, "composability": 0.6, "quick_total": 0.66, "rank": 25, "kept": false},
+    {"idea_id": "visionary-micro-8", "novelty": 0.6, "feasibility": 0.85, "impact": 0.7, "risk": 0.25, "composability": 0.8, "quick_total": 0.6775, "rank": 26, "kept": false},
+    {"idea_id": "realist-fallback-4", "novelty": 0.45, "feasibility": 0.85, "impact": 0.75, "risk": 0.15, "composability": 0.8, "quick_total": 0.6675, "rank": 27, "kept": false},
+    {"idea_id": "ux-natural-7", "novelty": 0.75, "feasibility": 0.6, "impact": 0.75, "risk": 0.35, "composability": 0.65, "quick_total": 0.66, "rank": 28, "kept": false},
+    {"idea_id": "testing-suite-e1", "novelty": 0.68, "feasibility": 0.65, "impact": 0.72, "risk": 0.32, "composability": 0.6, "quick_total": 0.6496, "rank": 29, "kept": false},
+    {"idea_id": "visionary-gesture-5", "novelty": 0.75, "feasibility": 0.65, "impact": 0.7, "risk": 0.45, "composability": 0.5, "quick_total": 0.6375, "rank": 30, "kept": false},
+    {"idea_id": "ux-focus-6", "novelty": 0.5, "feasibility": 0.95, "impact": 0.7, "risk": 0.2, "composability": 0.6, "quick_total": 0.64, "rank": 31, "kept": false},
+    {"idea_id": "realist-minimal-6", "novelty": 0.6, "feasibility": 0.75, "impact": 0.65, "risk": 0.1, "composability": 0.7, "quick_total": 0.6375, "rank": 32, "kept": false},
+    {"idea_id": "ux-haptic-8", "novelty": 0.6, "feasibility": 0.8, "impact": 0.6, "risk": 0.25, "composability": 0.7, "quick_total": 0.6175, "rank": 33, "kept": false},
+    {"idea_id": "realist-test-7", "novelty": 0.65, "feasibility": 0.6, "impact": 0.7, "risk": 0.3, "composability": 0.55, "quick_total": 0.615, "rank": 34, "kept": false},
+    {"idea_id": "visionary-collab-7", "novelty": 0.85, "feasibility": 0.4, "impact": 0.75, "risk": 0.6, "composability": 0.3, "quick_total": 0.565, "rank": 35, "kept": false}
+  ]
+}
