@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeLog Pro - Effortless Time Tracking</title>
+    <meta name="description" content="Offline-first, privacy-focused time tracking that makes hourly logging effortless">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Theme -->
+    <meta name="theme-color" content="#2563eb">
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <h1>VibeLog Pro</h1>
+                <nav>
+                    <button id="btn-timesheet" class="nav-btn active">Timesheet</button>
+                    <button id="btn-board" class="nav-btn">Board</button>
+                    <button id="btn-changelog" class="nav-btn">Changelog</button>
+                    <button id="btn-settings" class="nav-btn">Settings</button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Timesheet View -->
+            <section id="view-timesheet" class="view active">
+                <div class="container">
+                    <h2>Timesheet</h2>
+                    
+                    <!-- Quick Entry -->
+                    <div class="quick-entry">
+                        <input type="text" 
+                               id="quick-description" 
+                               placeholder="What are you working on?"
+                               autocomplete="off">
+                        <button id="btn-start-timer">Start</button>
+                    </div>
+                    
+                    <!-- Today's Entries -->
+                    <div class="entries-container">
+                        <h3>Today</h3>
+                        <div id="today-entries" class="entries-list">
+                            <!-- Entries will be dynamically added here -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Board View -->
+            <section id="view-board" class="view">
+                <div class="container">
+                    <h2>Task Board</h2>
+                    <div class="board-columns">
+                        <div class="board-column">
+                            <h3>Now (WIP: <span id="wip-count">0</span>/3)</h3>
+                            <div id="board-now" class="board-cards"></div>
+                        </div>
+                        <div class="board-column">
+                            <h3>Next</h3>
+                            <div id="board-next" class="board-cards"></div>
+                        </div>
+                        <div class="board-column">
+                            <h3>Later</h3>
+                            <div id="board-later" class="board-cards"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Changelog View -->
+            <section id="view-changelog" class="view">
+                <div class="container">
+                    <h2>Daily Changelog</h2>
+                    <form id="changelog-form">
+                        <textarea id="changelog-entry" 
+                                  placeholder="What did you accomplish today?"
+                                  rows="5"></textarea>
+                        <button type="submit">Save Daily Summary</button>
+                    </form>
+                    <div id="changelog-history">
+                        <!-- History will be displayed here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Settings View -->
+            <section id="view-settings" class="view">
+                <div class="container">
+                    <h2>Settings</h2>
+                    
+                    <!-- Work Hours -->
+                    <div class="setting-group">
+                        <h3>Work Hours</h3>
+                        <label>
+                            Start Time:
+                            <input type="time" id="work-start" value="09:00">
+                        </label>
+                        <label>
+                            End Time:
+                            <input type="time" id="work-end" value="17:00">
+                        </label>
+                    </div>
+                    
+                    <!-- Ping Settings -->
+                    <div class="setting-group">
+                        <h3>Time Ping Reminders</h3>
+                        <label>
+                            Interval:
+                            <select id="ping-interval">
+                                <option value="30">30 minutes</option>
+                                <option value="60" selected>60 minutes</option>
+                                <option value="90">90 minutes</option>
+                            </select>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="ping-enabled" checked>
+                            Enable pings (requires tab to be open)
+                        </label>
+                    </div>
+                    
+                    <!-- Storage Info -->
+                    <div class="setting-group">
+                        <h3>Storage</h3>
+                        <div id="storage-info">
+                            <!-- Storage stats will be displayed here -->
+                        </div>
+                        <button id="btn-export-csv">Export to CSV</button>
+                        <button id="btn-export-markdown">Export to Markdown</button>
+                        <button id="btn-clear-data" class="danger">Clear All Data</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Notification Area -->
+        <div id="notification" class="notification"></div>
+    </div>
+
+    <!-- Core Scripts -->
+    <script src="lib/lz-string.min.js"></script>
+    <script src="js/storage-manager.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
