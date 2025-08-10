@@ -3,7 +3,7 @@
  * Enables offline functionality and caching
  */
 
-const CACHE_NAME = 'vibelog-pro-v1.0.0';
+const CACHE_NAME = 'vibelog-pro-v1.1.0';
 const urlsToCache = [
     '/',
     '/index.html',
@@ -16,6 +16,9 @@ const urlsToCache = [
     '/js/smart-defaults.js',
     '/js/predictive-engine.js',
     '/js/predictive-ui.js',
+    '/js/voice-import.js',
+    '/js/smart-intelligence.js',
+    '/js/insights-dashboard.js',
     '/lib/lz-string.min.js',
     '/manifest.json'
 ];
