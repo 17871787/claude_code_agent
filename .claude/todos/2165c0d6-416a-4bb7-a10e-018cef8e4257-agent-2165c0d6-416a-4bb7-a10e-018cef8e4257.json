@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Initialize git repository and connect to GitHub",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Receive and analyze the monolithic code file",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create proper file system structure",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Split monolithic code into organized files",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Create package.json and necessary config files",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Commit and push to GitHub",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Deploy to Vercel",
+    "status": "completed",
+    "id": "7"
+  }
+]

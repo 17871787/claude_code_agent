@@ -1,0 +1,98 @@
+[
+  {
+    "content": "Create a fork/copy of the nutrient-data-pilot for advanced prototype",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Add potassium (K) mass balance to the advanced version",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Add sulfur (S) to nutrient tracking",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Keep original deployment unchanged",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Build Key Operational Units (KOUs) structure - fields, livestock groups, feed stores, manure",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  },
+  {
+    "content": "Create nutrient pathway visualization (Sankey diagram)",
+    "status": "completed",
+    "priority": "high",
+    "id": "6"
+  },
+  {
+    "content": "Add field-by-field nutrient tracking instead of whole-farm",
+    "status": "completed",
+    "priority": "high",
+    "id": "7"
+  },
+  {
+    "content": "Build scenario planning tool for what-if analysis",
+    "status": "completed",
+    "priority": "medium",
+    "id": "8"
+  },
+  {
+    "content": "Create farm nutrient map visualization with color-coded fields",
+    "status": "completed",
+    "priority": "medium",
+    "id": "9"
+  },
+  {
+    "content": "Deploy advanced version to GitHub and Vercel",
+    "status": "completed",
+    "priority": "high",
+    "id": "10"
+  },
+  {
+    "content": "Fix nutrient pathways visualization - replace Sankey with flow diagram",
+    "status": "completed",
+    "priority": "high",
+    "id": "11"
+  },
+  {
+    "content": "Fix scenario planning component - add missing icon imports",
+    "status": "completed",
+    "priority": "high",
+    "id": "12"
+  },
+  {
+    "content": "Debug nutrient pathways - add diagnostic information",
+    "status": "completed",
+    "priority": "high",
+    "id": "13"
+  },
+  {
+    "content": "Add data input capability for KOUs and pathways",
+    "status": "completed",
+    "priority": "high",
+    "id": "14"
+  },
+  {
+    "content": "Add data export functionality (JSON, CSV)",
+    "status": "completed",
+    "priority": "high",
+    "id": "15"
+  },
+  {
+    "content": "Implement proper Sankey diagram using D3.js or similar",
+    "status": "pending",
+    "priority": "medium",
+    "id": "16"
+  }
+]

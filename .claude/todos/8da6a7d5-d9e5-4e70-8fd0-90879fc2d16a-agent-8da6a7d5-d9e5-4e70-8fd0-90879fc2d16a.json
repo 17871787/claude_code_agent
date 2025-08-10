@@ -1,0 +1,38 @@
+[
+  {
+    "content": "Remove mortality field from UI and calculations",
+    "status": "completed",
+    "priority": "high",
+    "id": "patch-1"
+  },
+  {
+    "content": "Set feed rate default to kg/L with tooltip",
+    "status": "completed",
+    "priority": "high",
+    "id": "patch-2"
+  },
+  {
+    "content": "Make milk N% dynamic based on protein%",
+    "status": "completed",
+    "priority": "high",
+    "id": "patch-3"
+  },
+  {
+    "content": "Reduce decimal places in helper text",
+    "status": "completed",
+    "priority": "medium",
+    "id": "patch-4"
+  },
+  {
+    "content": "Add DM% field for concentrate CP calculations",
+    "status": "completed",
+    "priority": "high",
+    "id": "patch-5"
+  },
+  {
+    "content": "Add debug banner with ?debug=1 URL param",
+    "status": "completed",
+    "priority": "low",
+    "id": "patch-6"
+  }
+]

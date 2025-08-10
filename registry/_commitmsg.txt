@@ -1,5 +1,5 @@
-docs: scaffold agent manager pack + commands
+docs(client): scaffold Long Clawson junior AM agent
 
-- agents, pipelines, ops automations
-- context stubs + distiller
+- context stubs + client packs
+- AM commands (daily/weekly/renewal/inbound)
 - review checklist + README

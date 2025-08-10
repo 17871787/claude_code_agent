@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Create API endpoint for receiving JSON entries",
+    "status": "completed",
+    "id": "api-1"
+  },
+  {
+    "content": "Add automatic gap detection and filling",
+    "status": "completed",
+    "id": "api-2"
+  },
+  {
+    "content": "Create ChatGPT integration guide",
+    "status": "completed",
+    "id": "api-3"
+  },
+  {
+    "content": "Enhance timesheet export for easy reporting",
+    "status": "completed",
+    "id": "api-4"
+  }
+]

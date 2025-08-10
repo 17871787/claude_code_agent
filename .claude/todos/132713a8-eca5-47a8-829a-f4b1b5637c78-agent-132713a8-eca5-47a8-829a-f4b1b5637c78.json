@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Create folder structure for Long Clawson agent",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create client context stub files",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create agent role definitions",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Create AM pipeline commands",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Create review checklist and README",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Initialize git and push to GitHub",
+    "status": "in_progress",
+    "id": "6"
+  }
+]

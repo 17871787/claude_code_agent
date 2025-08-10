@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git revert:*)",
+      "Bash(npm install)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(lhci autorun:*)",
+      "Bash(npm test:*)",
+      "Bash(git reset:*)",
+      "Bash(powershell:*)",
+      "Bash(dir dist\\assets)",
+      "Bash(npm run dev:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "WebFetch(domain:ghg-tool-five.vercel.app)",
+      "Bash(npm run type-check:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(node:*)",
+      "Bash(npm ls:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(mkdir:*)",
+      "Bash(git remote remove:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(npx vercel:*)"
+    ],
+    "deny": []
+  }
+}

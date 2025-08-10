@@ -224,3 +224,21 @@ Morning flow:
 5) Ops bundle: `.claude/commands/ops_launcher.md`
 
 Outputs live under `registry/docs/final/`, `registry/drafts/`, and `registry/ops/`.
+
+## Long Clawson — Junior AM Agent
+
+Daily flow:
+1) Update sources + today files in `inputs/long-clawson/` and `_today/`
+2) Run `.claude/commands/ops_launcher_client.md`
+3) Review outputs under `registry/client/` with `registry/_review_checklist_long_clawson.md`
+4) Commit & push
+
+Key commands:
+- `context_distiller_client` — build context packs
+- `daily_heartbeat` — actions + plan + follow-up snippets
+- `meeting_prep` — agenda + packet
+- `weekly_status` — Friday status + email
+- `renewal_planner` — value/risks/options (no pricing)
+- `inbound_triage` — reply + task extraction
+
+Guardrails: human in loop; UNKNOWN if missing; cite evidence; no pricing/scope promises.

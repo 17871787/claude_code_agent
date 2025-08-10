@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Prep: Create directory structure and verify files",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Stage A: Execute diverge phase (r0_diverge)",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Stage B: Execute peer critique (r1_critique)",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Stage C: Execute evolve phase (r2_evolve)",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Gate A: Quickscore and prune",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Gate B: Full scoring",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Portfolio: Select and create briefs",
+    "status": "completed",
+    "id": "7"
+  },
+  {
+    "content": "Post: Generate summary and final output",
+    "status": "completed",
+    "id": "8"
+  }
+]
