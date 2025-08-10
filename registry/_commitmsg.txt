@@ -1,0 +1,5 @@
+docs: scaffold agent manager pack + commands
+
+- agents, pipelines, ops automations
+- context stubs + distiller
+- review checklist + README

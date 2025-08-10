@@ -213,3 +213,14 @@ This project serves as a demonstration of AI-powered development workflows. Feel
 ---
 
 Co-Authored-By: Claude <noreply@anthropic.com>
+
+## 🌀 Agent Manager Pack
+
+Morning flow:
+1) Update `inputs/_today.md` and project files in `inputs/acme-q4/`
+2) Run `.claude/commands/context_distiller.md`
+3) Run proposal pipeline: r0_draft → r1_critique → r2_rewrite → gateA_qualitycheck → r3_finalize
+4) Or run `.claude/commands/draft_launcher.md` for quick drafts
+5) Ops bundle: `.claude/commands/ops_launcher.md`
+
+Outputs live under `registry/docs/final/`, `registry/drafts/`, and `registry/ops/`.
